@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-logo {
+        text-align: left;
+        order: 1;
+        margin-bottom: 10px;
+    }
+
+    .navbar-nav {
+        order: 2;
+        margin-bottom: 10px;
+        justify-content: flex-start;
+    }
+
+    .navbar-actions {
+        order: 3;
+        justify-content: flex-end;
+    }
+
+    .nav-item {
+        margin: 5px 0;
+    }
+}
