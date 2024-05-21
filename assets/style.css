@@ -80,50 +80,6 @@
     display: block;
   }
   
-  /* Responsive Styles */
-  
-  @media (max-width: 768px) {
-    .navbar {
-      height: 7em;
-    }
-    .navbar-logo {
-      width: 12em;
-    }
-    .navbar-nav {
-      flex-direction: column;
-    }
-    .nav-item {
-      margin: 10px 0;
-    }
-    .nav-link {
-      font-size: 16px;
-    }
-    .dropdown-menu {
-      top: 90%;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .navbar {
-      height: 5em;
-    }
-    .navbar-logo {
-      width: 8em;
-    }
-    .navbar-nav {
-      flex-direction: column;
-    }
-    .nav-item {
-      margin: 5px 0;
-    }
-    .nav-link {
-      font-size: 14px;
-    }
-    .dropdown-menu {
-      top: 80%;
-    }
-  }
-  
   /* Additional Styles */
   
   #right {
@@ -149,10 +105,56 @@
     -webkit-font-smoothing: antialiased;
   }
   
-  .search-wrapper a i {
-    padding: 16px 0;
-    color: #666 !important;
-    opacity: 1 !important;
-    transition: transform 400ms ease-in-out 0s;
-    -webkit-transition: transform 400ms ease-in-out 0s;
+/* for search button and form  */
+
+  .search-wrapper {
+    position: relative;
+    display: inline-block;
   }
+  
+  .search-form {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 300px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .search-form::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #f9f9f9;
+  }
+  
+  .search-form input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-form button[type="button"] {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-form button[type="button"] i {
+    font-size: 20px;
+  }
+  
+  .search-form.open {
+    display: block;
+  }  
+  /* search styling end  */
