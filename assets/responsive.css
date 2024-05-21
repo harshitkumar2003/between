@@ -25,3 +25,11 @@
         margin: 5px 0;
     }
 }
+
+@media (min-width: 544px) {
+    #right {
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+}
+

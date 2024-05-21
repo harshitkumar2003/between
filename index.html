@@ -8,60 +8,119 @@
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-    <!-- navbar including logo ,menubar ,actions  -->
-    <nav class="navbar">    
-        <div class="navbar-logo">   <!-- logo -->
-            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+  <!-- Container for the navbar -->
+<div class="container">
+    <!-- Navbar component -->
+    <nav class="navbar">
+      <!-- Logo section -->
+      <div class="navbar-logo" id="left">
+        <!-- Link to homepage with logo image -->
+        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+      </div>
+  
+      <!-- Menubar section -->
+      <ul class="navbar-nav">
+        <!-- Home menu item -->
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+  
+        <!-- About menu item with dropdown -->
+        <li class="nav-item">
+          <a href="#" class="nav-link">About</a>
+          <!-- Dropdown menu for About -->
+          <div class="dropdown-menu">
+            <a href="#" class="nav-link">Company</a>
+            <a href="#" class="nav-link">Team</a>
+            <a href="#" class="nav-link">Mission</a>
+            <!-- Add more dropdown items as needed -->
+          </div>
+        </li>
+  
+        <!-- Category menu item with dropdown -->
+        <li class="nav-item">
+          <a href="#" class="nav-link">Category</a>
+          <!-- Dropdown menu for Category -->
+          <div class="dropdown-menu">
+            <a href="#" class="nav-link">Men's Clothing</a>
+            <a href="#" class="nav-link">Women's Clothing</a>
+            <a href="#" class="nav-link">Kids' Clothing</a>
+            <!-- Add more dropdown items as needed -->
+          </div>
+        </li>
+  
+        <!-- Blogs menu item with dropdown -->
+        <li class="nav-item">
+          <a href="#" class="nav-link">Blogs</a>
+          <!-- Dropdown menu for Blogs -->
+          <div class="dropdown-menu">
+            <a href="#" class="nav-link">Fashion Trends</a>
+            <a href="#" class="nav-link">Style Tips</a>
+            <a href="#" class="nav-link">New Arrivals</a>
+            <!-- Add more dropdown items as needed -->
+          </div>
+        </li>
+  
+        <!-- New menu item with dropdown -->
+        <li class="nav-item">
+          <a href="#" class="nav-link">New</a>
+          <!-- Dropdown menu for New -->
+          <div class="dropdown-menu">
+            <a href="#" class="nav-link">New Collection</a>
+            <a href="#" class="nav-link">New Arrivals</a>
+            <a href="#" class="nav-link">Latest Trends</a>
+            <!-- Add more dropdown items as needed -->
+          </div>
+        </li>
+      </ul>
+  
+      <!-- Right-aligned section for search and user info -->
+      <div class="right">
+        <!-- Search section -->
+        <div class="search-wrapper">
+          <!-- Search icon -->
+          <a>
+            <i class="material-icons search">search</i>
+            <i class="material-icons close">close</i>
+          </a>
+          <!-- Search form -->
+          <form autocomplete="on" action="/action_page.php" class="search-form">
+            <div class="autocomplete">
+              <input id="myInput" type="text" name="myCountry" placeholder="Search here">
+              <button type="button"><i class="material-icons">search</i></button>
+            </div>
+          </form>
         </div>
-        <ul class="navbar-nav">     <!-- menubar -->
-            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">About</a>
-                <div class="dropdown-menu">
-                    <a href="#" class="nav-link">Company</a>
-                    <a href="#" class="nav-link">Team</a>
-                    <a href="#" class="nav-link">Mission</a>
-                    <!-- Add more dropdown items as needed -->
-                </div>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Category</a>
-                <div class="dropdown-menu">
-                    <a href="#" class="nav-link">Men's Clothing</a>
-                    <a href="#" class="nav-link">Women's Clothing</a>
-                    <a href="#" class="nav-link">Kids' Clothing</a>
-                    <!-- Add more dropdown items as needed -->
-                </div>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Blogs</a>
-                <div class="dropdown-menu">
-                    <a href="#" class="nav-link">Fashion Trends</a>
-                    <a href="#" class="nav-link">Style Tips</a>
-                    <a href="#" class="nav-link">New Arrivals</a>
-                    <!-- Add more dropdown items as needed -->
-                </div>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">New</a>
-                <div class="dropdown-menu">
-                    <a href="#" class="nav-link">New Collection</a>
-                    <a href="#" class="nav-link">New Arrivals</a>
-                    <a href="#" class="nav-link">Latest Trends</a>
-                    <!-- Add more dropdown items as needed -->
-                </div>
-            </li>
-        </ul>
-        <div class="navbar-actions">         <!-- actions -->
-            <a href="#" class="nav-link">Search</a>
-            <a href="#" class="nav-link">User Account</a>
-            <a href="#" class="nav-link">Cart</a>
+  
+        <!-- User info section -->
+        <div class="user-info">
+          <!-- User account button -->
+          <button type="button" class="btn">
+            <i class="material-icons">perm_identity</i>
+          </button>
+          <!-- User dropdown menu -->
+          <div id="user-dropdown" class="user-menu">
+            <ul>
+              <li><a href="my-account.html" class="text-capitalize">my account</a></li>
+              <li>
+                <a href="#" class="modal-view button" data-toggle="modal" data-target="#modalRegisterForm">Register</a>
+              </li>
+              <li>
+                <a href="#" class="modal-view button" data-toggle="modal" data-target="#modalLoginForm">login</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </nav>
-    <div class="container">  
+  </div>
+    <div class="container">
         <div class="home-page">
 
         </div>
