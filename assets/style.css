@@ -17,7 +17,7 @@ body {
 /* Navbar Styles */
 
 .navbar {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: black;
   display: flex;
   height: 9em;
@@ -39,7 +39,9 @@ body {
   object-fit: cover;
 }
 
+/* menu styling */
 .navbar-nav {
+  background: #000;
   flex-grow: 2;
   display: flex;
   justify-content: center;
@@ -47,7 +49,7 @@ body {
 
 .nav-item {
   list-style: none;
-  margin: 0 15px;
+  margin: 20px 18px;
   position: relative;
 }
 
@@ -57,7 +59,7 @@ body {
   font-style: normal;
   font-size: 18px;
   text-decoration: none;
-  color: grey;
+  color: white;
   transition: color 0.2s ease-in-out;
 }
 
@@ -145,7 +147,7 @@ body {
   width: 50%;
   position: absolute;
   top: 40%;
-  left: 55%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
