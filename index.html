@@ -27,25 +27,22 @@
       <!-- Right-aligned section for search and user info -->
       <div class="right">
         <!-- User info section -->
-       <li class="user-info">
-        <a href="#" class="user">Login</a>
-        <!-- Dropdown menu for About -->
-        <div class="dropdown-menu">
-          <a href="#" class="nav-link">My Profile</a><br>
-          <a href="#" class="nav-link">Orders</a><br>
-          <a href="#" class="nav-link">Wishlist</a>
-          <a href="#" class="nav-link">Rewards</a>
-          <!-- Add more dropdown items as needed -->
+        <div class="user">
+          <button class="useer-info" id="user-dropdown" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">login</button>
+          <!-- Dropdown menu for About -->
+          <ul class="dropdown-menu" aria-labelledby="user-dropdown">
+            <li><a href="" class="dropdown-item">my account</a></li>
+            <li><a href="" class="dropdown-item">orders</a></li>
+            <li><a href="" class="dropdown-item">wishlist</a></li>
+            <li><a href="" class="dropdown-item">rewards</a></li>
+            <!-- Add more dropdown items as needed -->
+          </ul>
         </div>
-      </li>
-
         <!-- cart section -->
         <div class="cart">
           <!-- cart button -->
-          <button type="button" class="btn">
-            <a href="#" id="cart">
-              <i class="fa fa-shopping-cart"><span>&#10084;</span></i>
-              <span class="badge">16</span></a>
+          <button type="button" class="btn"><a href="#" id="cart"><i class="fa fa-shopping-cart">cart</i></a>
           </button>
         </div>
       </div>
