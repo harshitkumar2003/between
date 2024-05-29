@@ -124,3 +124,11 @@ body {
 .user {}
 
 .cart {}
+
+/* end of user and cart styling */
+
+.home{
+  font-size: 29px;
+  font-weight: 700;
+  color: #000;
+}
