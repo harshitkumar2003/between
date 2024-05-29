@@ -1,7 +1,8 @@
 /* Global Styles */
-html{
+html {
   scroll-behavior: smooth;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -90,10 +91,10 @@ body {
   color: #000;
 }
 
-.dropdown-menu a:hover{
-    background-color: #ffffff;
-    color: #000;
-    transition: color 0.2s ease-in-out;
+.dropdown-menu a:hover {
+  background-color: #ffffff;
+  color: #000;
+  transition: color 0.2s ease-in-out;
 }
 
 
@@ -120,10 +121,6 @@ body {
   font-weight: 500;
 }
 
-.user {
- 
-}
+.user {}
 
-.cart {
-
-}
+.cart {}
