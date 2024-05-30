@@ -28,14 +28,16 @@
       <div class="container">
         <div class="right-box">
           <!-- User info section -->
-          <div class="user" id="right">
-            <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
-          </div>
-          <div class="user-dropdown" aria-labelledby="user">
-            <a href="#">My Account</a>
-            <a href="#">Orders</a>
-            <a href="#">Wishlist</a>
-            <a href="#">Rewards</a>
+          <div class="user">
+            <button class="user-btn" type="button" id="loginDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Login
+            </button>
+            <div class="dropdown-user" aria-labelledby="loginDropdown">
+              <a class="dropdown-item" href="#">My Account</a>
+              <a class="dropdown-item" href="#">Orders</a>
+              <a class="dropdown-item" href="#">Wishlist</a>
+              <a class="dropdown-item" href="#">Rewards</a>
+            </div>
           </div>
           <!-- user cart section -->
           <div class="cart" id="right">

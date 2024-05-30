@@ -121,11 +121,17 @@ body {
   font-weight: 500;
 }
 
+.dropdown:hover.dropdown-menu {
+  display: block;
+}
+
 .user {}
 
 .cart {}
 
-/* end of user and cart styling */
+/*==============================
+====== home page styling =======
+================================ */
 
 .home{
   font-size: 29px;
