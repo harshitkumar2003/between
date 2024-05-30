@@ -45,24 +45,6 @@ body {
 /*------------------------
 ----- menu styling--------
 --------------------------*/
-.navbar-menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.navbar-toggler {
-  display: block;
-}
-
-.collapse {
-  display: none;
-}
-
-.collapse.show {
-  display: block;
-}
-
 .navbar-nav {
   background: #000;
   flex-grow: 2;

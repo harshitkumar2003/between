@@ -42,19 +42,4 @@
     }
   }
 
-  @media (min-width: 992px) {
-    .dropdown-menu {
-       display: block;
-       position: static;
-       margin-bottom: 1rem;
-     }
-     .navbar-menu {
-      flex-direction: row;
-    }
-   .navbar-toggler {
-      display: none;
-    }
-   .collapse {
-      display: block;
-    }
-  }
+  
