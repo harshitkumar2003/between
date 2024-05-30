@@ -48,7 +48,13 @@
        position: static;
        margin-bottom: 1rem;
      }
-    .navbar-toggler {
-       display: none;
-     }
-   }
+     .navbar-menu {
+      flex-direction: row;
+    }
+   .navbar-toggler {
+      display: none;
+    }
+   .collapse {
+      display: block;
+    }
+  }
