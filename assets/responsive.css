@@ -41,3 +41,14 @@
       top: 80%;
     }
   }
+
+  @media (min-width: 992px) {
+    .dropdown-menu {
+       display: block;
+       position: static;
+       margin-bottom: 1rem;
+     }
+    .navbar-toggler {
+       display: none;
+     }
+   }
