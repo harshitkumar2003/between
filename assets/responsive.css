@@ -19,6 +19,22 @@
     .dropdown-menu {
       top: 90%;
     }
+    .right-box {
+      width: 11rem;
+      top: 5em;
+    }
+    #user {
+      font-size: 1em;
+      left: 2em;
+    }
+    .cart {
+      font-size: 1em;
+
+    }
+    svg-icon {
+      height: 23px;
+      width: 23px;
+    }
   }
   
   @media (max-width: 480px) {
@@ -41,7 +57,19 @@
       top: 90%;
     }
     .right-box{
-      width: 12rem;
+      width: 10rem;
+      top: 4em;
+    }
+    #user {
+      font-size: .5em;
+      left: 1em;
+    }
+    .cart a {
+      font-size: .5em;
+    }
+    svg-icon {
+      height: 20px;
+      width: 20px;
     }
   }
 
@@ -50,6 +78,19 @@
       width: 7.5em;
   }
   .right-box{
-    width: 11.2rem;
+    width: 9rem;
+    top: 4.1em;
+  }
+  #user {
+    font-size: .2em;
+    left: .5em;
+  }
+  .cart {
+    font-size: .2em;
+
+  }
+  svg-icon {
+    height: 18px;
+    width: 18px;
   }
   }
