@@ -108,7 +108,7 @@ body {
   right: -.1em;
   max-height: 100vh;
   max-width: 100vw;
-  /* border: 1px solid red; */
+  border: 1px solid red;
   display: inline-flex;
   overflow: hidden;
 }
@@ -181,12 +181,13 @@ li a {
   text-decoration: none;
   color: #000;
   font-weight: 400;
-  padding: .8em;
-
-  span {
-    margin-left: .4em;
-  }
+  padding: .5em;
 }
+
+  li a span {
+    margin-left: .3em;
+  }
+
 /*==============================
 ====== home page styling =======
 ================================ */
