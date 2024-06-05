@@ -34,6 +34,7 @@
      height: 23px;
      width: 23px;
    }
+
    .dd-icon {
      height: 23px;
      width: 23px;
@@ -97,13 +98,13 @@
    }
 
    .dd-icon {
-    height: 12px;
-    width: 12px;
-  }
+     height: 12px;
+     width: 12px;
+   }
 
-.li a {
-  display: flex;
-}
+   .li a {
+     display: flex;
+   }
 
    .dropdown-user {
      left: 3rem;
