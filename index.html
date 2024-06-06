@@ -5,29 +5,88 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>betweenclothing.com</title>
-  <link rel="stylesheet" href="js/slide.js">
   <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="scss/style.scss">
   <link rel="stylesheet" href="assets/responsive.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <!-- Container for the navbar -->
-    <div class="container1">
-      <!-- Navbar component -->
-      <nav class="navbar">
-        <!-- Logo section -->
-        <div class="navbar-logo" id="left">
-          <!-- Link to homepage with logo image -->
-          <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+  <!-- <header> -->
+  <!-- Container for the navbar -->
+  <!-- <div class="container1"> -->
+  <!-- Navbar component -->
+  <!-- <nav class="navbar"> -->
+  <!-- Logo section -->
+  <!-- <div class="navbar-logo" id="left"> -->
+  <!-- Link to homepage with logo image -->
+  <!-- <a href="index.html"><img src="images/logo.png" alt="logo"></a> -->
+  <!-- </div> -->
+  <!-- </nav> -->
+  <!-- </div> -->
+
+  <!-- Menubar section -->
+  <nav class="navbar-menu">
+    <ul class="navbar-nav">
+      <!-- Home menu item -->
+      <li class="nav-item">
+        <a href="index.html" class="nav-link">Home</a>
+      </li>
+
+      <!-- About menu item with dropdown -->
+      <li class="nav-item">
+        <a href="#" class="nav-link">About</a>
+        <!-- Dropdown menu for About -->
+        <div class="dropdown-menu">
+          <a href="company.html" class="nav-link">Company</a>
+          <a href="team.html" class="nav-link">Team</a>
+          <a href="mission.html" class="nav-link">Mission</a>
+          <!-- Add more dropdown items as needed -->
         </div>
-      </nav>
+      </li>
+
+      <!-- Category menu item with dropdown -->
+      <li class="nav-item">
+        <a href="#" class="nav-link">Category</a>
+        <!-- Dropdown menu for Category -->
+        <div class="dropdown-menu">
+          <a href="men.html" class="nav-link">Men</a>
+          <a href="women.html" class="nav-link">Women</a>
+          <a href="#kids.html" class="nav-link">Kids</a>
+          <!-- Add more dropdown items as needed -->
+        </div>
+      </li>
+
+      <!-- Blogs menu item with dropdown -->
+      <li class="nav-item">
+        <a href="#" class="nav-link">Blogs</a>
+        <!-- Dropdown menu for Blogs -->
+        <div class="dropdown-menu">
+          <a href="Fashionista.html" class="nav-link">Fashionista</a>
+          <a href="StyleTips.html" class="nav-link">Style Tips</a>
+          <a href="whowhatwear.html" class="nav-link">Who What Wear</a>
+          <!-- Add more dropdown items as needed -->
+        </div>
+      </li>
+
+      <!-- New menu item with dropdown -->
+      <li class="nav-item">
+        <a href="#" class="nav-link">New</a>
+        <!-- Dropdown menu for New -->
+        <div class="dropdown-menu">
+          <a href="NewCollection.html" class="nav-link">New Collection</a>
+          <a href="NewArrivals.html" class="nav-link">New Arrivals</a>
+          <a href="LatestTrends.html" class="nav-link">Latest Trends</a>
+          <!-- Add more dropdown items as needed -->
+        </div>
+      </li>
+    </ul>
     </div>
+
 
     <!-- Right-aligned section for user info -->
     <div class="right-box">
@@ -38,7 +97,6 @@
             <path
               d="M298.666667 298.666667a213.333333 213.333333 0 1 0 213.333333-213.333334 213.333333 213.333333 0 0 0-213.333333 213.333334zM128 831.573333z m0 0z m0 0z m768 2.56z m0 0z m-768 0z m578.56-275.2h-17.493333a50.346667 50.346667 0 0 0-20.906667 5.12s-14.08 8.106667-26.88 13.653334a331.946667 331.946667 0 0 1-128 25.6 321.706667 321.706667 0 0 1-128-25.6c-12.8-5.546667-27.306667-13.653333-27.306667-13.653334a42.666667 42.666667 0 0 0-20.906666-5.12h-18.346667a219.306667 219.306667 0 0 0-165.12 136.533334 362.666667 362.666667 0 0 0-25.6 134.4 42.666667 42.666667 0 0 0 21.333333 32.426666S268.8 938.666667 512 938.666667s362.666667-76.373333 362.666667-76.373334a42.666667 42.666667 0 0 0 21.333333-32.853333 346.88 346.88 0 0 0-24.746667-132.266667 218.88 218.88 0 0 0-164.693333-139.946666zM896 829.866667z m0 0z" />
           </svg>
-          <span>Login</span>
         </button>
         <div class="dropdown-user">
           <ul>
@@ -84,69 +142,11 @@
               d="M200.64 184.736H128a24 24 0 0 1 0-48h92.416a24 24 0 0 1 23.552 19.424l19.712 101.696h607.264a56 56 0 0 1 53.92 71.168l-74.176 263.488a120 120 0 0 1-115.52 87.488H395.584a120 120 0 0 1-117.792-97.152L200.64 184.736zM272.96 305.856l51.936 267.84a72 72 0 0 0 70.656 58.304h339.584a72 72 0 0 0 69.312-52.48l74.176-263.52a8 8 0 0 0-7.68-10.144H272.96zM720 872a88 88 0 1 1 0-176 88 88 0 0 1 0 176z m0-48a40 40 0 1 0 0-80 40 40 0 0 0 0 80z m-320 48a88 88 0 1 1 0-176 88 88 0 0 1 0 176z m0-48a40 40 0 1 0 0-80 40 40 0 0 0 0 80z m-24-392a24 24 0 1 1 0-48 24 24 0 0 1 0 48z m38.944 96a24 24 0 1 1 0-48 24 24 0 0 1 0 48z m57.056-96a24 24 0 1 1 0-48 24 24 0 0 1 0 48z m43.488 96a24 24 0 1 1 0-48 24 24 0 0 1 0 48z m52.512-96a24 24 0 1 1 0-48 24 24 0 0 1 0 48z m48 96a24 24 0 1 1 0-48 24 24 0 0 1 0 48z m48-96a24 24 0 1 1 0-48 24 24 0 0 1 0 48z m48 96a24 24 0 1 1 0-48 24 24 0 0 1 0 48z m48-96a24 24 0 1 1 0-48 24 24 0 0 1 0 48z"
               fill="#2A2A2A" />
           </svg>
-          <span>Cart</span>
         </a>
       </div>
     </div>
-
-    <!-- Menubar section -->
-    <div class="navbar-menu">
-      <ul class="navbar-nav">
-        <!-- Home menu item -->
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">Home</a>
-        </li>
-
-        <!-- About menu item with dropdown -->
-        <li class="nav-item">
-          <a href="#" class="nav-link">About</a>
-          <!-- Dropdown menu for About -->
-          <div class="dropdown-menu">
-            <a href="company.html" class="nav-link">Company</a>
-            <a href="team.html" class="nav-link">Team</a>
-            <a href="mission.html" class="nav-link">Mission</a>
-            <!-- Add more dropdown items as needed -->
-          </div>
-        </li>
-
-        <!-- Category menu item with dropdown -->
-        <li class="nav-item">
-          <a href="#" class="nav-link">Category</a>
-          <!-- Dropdown menu for Category -->
-          <div class="dropdown-menu">
-            <a href="men.html" class="nav-link">Men</a>
-            <a href="women.html" class="nav-link">Women</a>
-            <a href="#kids.html" class="nav-link">Kids</a>
-            <!-- Add more dropdown items as needed -->
-          </div>
-        </li>
-
-        <!-- Blogs menu item with dropdown -->
-        <li class="nav-item">
-          <a href="#" class="nav-link">Blogs</a>
-          <!-- Dropdown menu for Blogs -->
-          <div class="dropdown-menu">
-            <a href="Fashionista.html" class="nav-link">Fashionista</a>
-            <a href="StyleTips.html" class="nav-link">Style Tips</a>
-            <a href="whowhatwear.html" class="nav-link">Who What Wear</a>
-            <!-- Add more dropdown items as needed -->
-          </div>
-        </li>
-
-        <!-- New menu item with dropdown -->
-        <li class="nav-item">
-          <a href="#" class="nav-link">New</a>
-          <!-- Dropdown menu for New -->
-          <div class="dropdown-menu">
-            <a href="NewCollection.html" class="nav-link">New Collection</a>
-            <a href="NewArrivals.html" class="nav-link">New Arrivals</a>
-            <a href="LatestTrends.html" class="nav-link">Latest Trends</a>
-            <!-- Add more dropdown items as needed -->
-          </div>
-        </li>
-      </ul>
-    </div>
-  </header>
+  </nav>
+  <!-- </header> -->
 
   <!-- home page container -->
 
@@ -185,5 +185,6 @@
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
 </body>
+<link rel="stylesheet" href="js/slide.js">
 
 </html>
