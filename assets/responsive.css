@@ -1,11 +1,11 @@
  /* Responsive Styles */
 
  @media (max-width: 768px) {
-   .navbar-logo {
+   .top-logo {
      width: 18em;
    }
 
-   .navbar-nav {
+   .navbar {
      flex-direction: column;
    }
 
@@ -42,11 +42,11 @@
  }
 
  @media (max-width: 464px) {
-   .navbar-logo {
+   .top-logo {
      width: 14rem;
    }
 
-   .navbar-nav {
+   .navbar {
      flex-direction: column;
    }
 
@@ -88,7 +88,7 @@
  }
 
  @media (max-width: 330px) {
-   .navbar-logo {
+   .top-logo {
      width: 12rem;
    }
 
