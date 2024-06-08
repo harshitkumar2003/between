@@ -39,6 +39,10 @@
      height: 23px;
      width: 23px;
    }
+   .slideshow-container{
+    position: relative;
+    top: 25.6rem;
+    }
  }
 
  @media (max-width: 464px) {
@@ -65,7 +69,7 @@
 
    #user {
      font-size: 13px;
-     left: 4rem;
+
    }
 
    .cart a {
@@ -85,6 +89,10 @@
    .dropdown-user {
      left: 3rem;
    }
+   .slideshow-container{
+    position: relative;
+    top: 22rem;
+    }
  }
 
  @media (max-width: 330px) {

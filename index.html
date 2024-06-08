@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>betweenclothing.com</title>
-  <link rel="stylesheet" href="js/slide.js">
   <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="scss/style.scss">
   <link rel="stylesheet" href="assets/responsive.css">
@@ -35,15 +34,11 @@
     <!-- Right-aligned section for user info -->
     <div class="right-box">
       <!-- search wrapper -->
-      <div id="myOverlay" class="overlay">
-        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
-        <div class="overlay-content">
-          <form action="action_page.php">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-          </form>
-        </div>
-      </div>
+      <form class="searchform" action="noaction.php">
+        <input type="text" name="search" placeholder=" Search..">
+        <button type="submit" class="searchbtn"><i class="material-icons">search</i>
+        </button>
+      </form>
       <!-- User info section -->
       <div class="user-wrapper">
         <button id="user">
@@ -166,24 +161,8 @@
       <img src="images/s3.jpg" style="width:100%">
       <div class="text">Caption Three</div>
     </div>
-
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
   </div>
 
-  <i class="material-icons">close</i>
-  <i class="material-icons">attachment</i>
-  <i class="material-icons">computer</i>
-  <i class="material-icons">traffic</i>
 </body>
 
 </html>
