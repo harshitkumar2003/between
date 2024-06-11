@@ -179,8 +179,8 @@ li a {
 ----- menu styling--------
 --------------------------*/
 
-.navbar {
-   border: 2px solid red; 
+/* .navbar {
+   border: 2px solid red;  */
  /* position: relative;
   top: -9rem;
   /* width: 100%; */
@@ -190,7 +190,7 @@ li a {
   justify-content: center;
   box-shadow: 0 2px 9px rgba(0, 0, 0, 0.2);
   z-index: 5; */
-} 
+/* }  */
 
 .nav-item {
   list-style: none;
@@ -266,7 +266,7 @@ body {
   background: #f0faff;
 }
 .nav {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -289,6 +289,10 @@ a {
 .nav .logo {
   font-size: 22px;
   font-weight: 500;
+}
+.nav .logo img {
+  height: 6em;
+  width: 6em;
 }
 .nav .nav-links {
   column-gap: 20px;
