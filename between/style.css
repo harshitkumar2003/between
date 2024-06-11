@@ -688,6 +688,11 @@ h3.cart-title {
     flex-wrap: wrap;
   }
 }
+#homebanner {
+  height: 1.2em;
+  width: 1em;
+  border: 2px solid red;
+}
 
 /* 4. Product
 /*----------------------------------------------*/
