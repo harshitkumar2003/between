@@ -115,20 +115,27 @@
     </symbol>
   </svg>
 
+  <!-- =========================================================================
+   ==search popup section for searching Categories or any products by the user==
+   ========================================================================  -->
+
+  <!-- search-popup start -->
   <div class="search-popup">
     <div class="search-popup-container">
 
-      <form role="search" method="get" class="search-form" action="">
+      <!-- search form for the input  -->
+      <form role="search" method="get" class="search-form" action=""> <!-- start  -->
         <input type="search" id="search-form" class="search-field" placeholder="Type and press enter" value=""
           name="s" />
         <button type="submit" class="search-submit"><svg class="search">
             <use xlink:href="#search"></use>
           </svg></button>
-      </form>
+      </form> <!-- end -->
 
+      <!-- heading content for search -->
       <h5 class="cat-list-title">Browse Categories</h5>
-
-      <ul class="cat-list">
+      <!-- sub content list for user for hint what they can search -->
+      <ul class="cat-list"> <!-- list start -->
         <li class="cat-list-item">
           <a href="#" title="T-shirts">T-shirts</a>
         </li>
@@ -145,24 +152,34 @@
           <a href="#" title="Prime T-shirts">Prime T-shirts</a>
         </li>
 
-        <!-- for extra search item -->
+        <!-- extra search item for future reference-->
         <!-- <li class="cat-list-item">
               <a href="#" title=""></a>
             </li>
             <li class="cat-list-item">
               <a href="#" title=""></a>
             </li> -->
-      </ul>
+      </ul> <!-- list end -->
 
     </div>
-  </div>
+  </div> <!-- search-popup end -->
 
+  <!-- ============================================================
+   ==========header for logo menubar links and buttons=============
+   ============================================================ -->
+
+  <!-- header start -->
   <header id="header" class="site-header header-scrolled position-fixed text-black bg-light">
     <nav id="header-nav" class="navbar navbar-expand-lg px-3 mb-3">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
+
+        <!-- logo section start -->
+        <a class="navbar-brand" href="index.html"
+          style="font-size: 3em; line-height: 1em; letter-spacing: -5px; font-family: Playfair Display, serif; font-optical-sizing: auto; font-weight: 500; font-style: normal;">
           BETWEEN
-        </a>
+        </a> <!-- logo section end -->
+
+        <!-- toggle button for menu links and logo when display size is reduce to its normal resolution -->
         <button class="navbar-toggler d-flex d-lg-none order-3 p-2" type="button" data-bs-toggle="offcanvas"
           data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
           <svg class="navbar-icon">
@@ -171,12 +188,19 @@
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel">
           <div class="offcanvas-header px-4 pb-0">
-            <a class="navbar-brand" href="index.html">
-              <img src="images/main-logo.png" class="logo">
+            <a class="navbar-brand" href="index.html"
+              style="font-size: 3em; line-height: 1em; letter-spacing: -5px; font-family: Playfair Display, serif; font-optical-sizing: auto; font-weight: 500; font-style: normal;">
+              BETWEEN
             </a>
             <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"
               data-bs-target="#bdNavbar"></button>
-          </div>
+          </div> <!-- toggle end -->
+
+          <!-- ============================================================
+         ============= navbar container for menu links ==============
+         ============================================================ -->
+
+          <!-- menu links start -->
           <div class="offcanvas-body">
             <ul id="navbar" class="navbar-nav text-uppercase justify-content-end align-items-center flex-grow-1 pe-3">
               <li class="nav-item">
@@ -197,9 +221,11 @@
               <li class="nav-item">
                 <a class="nav-link me-4" href="#latest-blog">Blog</a>
               </li>
+              <!-- dropdown container -->
               <li class="nav-item dropdown">
                 <a class="nav-link me-4 dropdown-toggle link-dark" data-bs-toggle="dropdown" href="#" role="button"
                   aria-expanded="false">Pages</a>
+                <!-- dropdown for menu sublinks start -->
                 <ul class="dropdown-menu">
                   <li>
                     <a href="about.html" class="dropdown-item">About</a>
@@ -216,9 +242,8 @@
                   <li>
                     <a href="contact.html" class="dropdown-item">Contact</a>
                   </li>
-
-                  <!-- extra links for future reference -->
-                  <!-- <li>
+                  <!-- extra sublinks for future reference
+                  <li>
                     <a href="single-post.html" class="dropdown-item"></a>
                   </li>
                   <li>
@@ -227,11 +252,15 @@
                   <li>
                     <a href="cart.html" class="dropdown-item">Cart</a>
                   </li> -->
-                </ul>
-              </li>
+
+                </ul> <!-- dropdown-container -->
+              </li> <!-- dropdown for menu end -->
+
+              <!-- nav-links buttons search ,user ,cart start -->
               <li class="nav-item">
                 <div class="user-items ps-5">
                   <ul class="d-flex justify-content-end list-unstyled">
+                    <!-- search -->
                     <li class="search-item pe-3">
                       <a href="#" class="search-button">
                         <svg class="search">
@@ -239,6 +268,7 @@
                         </svg>
                       </a>
                     </li>
+                    <!-- user -->
                     <li class="pe-3">
                       <a href="user.html">
                         <svg class="user">
@@ -246,6 +276,7 @@
                         </svg>
                       </a>
                     </li>
+                    <!-- cart -->
                     <li>
                       <a href="cart.html">
                         <svg class="cart">
@@ -255,30 +286,44 @@
                     </li>
                   </ul>
                 </div>
-              </li>
+              </li> <!-- nav-links buttons search ,user ,cart end -->
             </ul>
+          </div> <!-- menu likns end -->
+        </div> <!-- toggle reduce header end -->
+      </div> <!-- header container end -->
+    </nav>
+  </header> <!-- header end -->
+
+  <!--=================================================
+  ========section for home page view and content ======
+  ==================================================-->
+
+  <section id="billboard" class="position-relative overflow-hidden bg-light-blue"
+    style="height: 40rem; background-image: url(images/home\ banner.png); background-position: center; background-repeat: no-repeat;background-size: cover;">
+
+    <!-- home page container -->
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-6">
+          <div class="banner-content">
+            <!-- <h1 class="display-2 text-uppercase text-dark pb-5">Your Products Are Great.</h1> -->
+            <a href="shop.html" class="btn btn-medium btn-dark btn-rounded-none" style="position: relative; top: 27em; left: 30em;">Shop Now</a>
           </div>
         </div>
       </div>
-    </nav>
-  </header>
-  <section id="billboard" class="position-relative overflow-hidden bg-light-blue">
-    <div class="swiper main-swiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="container">
-            <div class="row d-flex align-items-center">
-              <div class="col-md-6">
-                <div class="banner-content">
-                  <h1 class="display-2 text-uppercase text-dark pb-5">Your Products Are Great.</h1>
-                  <a href="shop.html" class="btn btn-medium btn-dark text-uppercase btn-rounded-none">Shop Product</a>
-                </div>
-              </div>
+    </div> <!-- home page container end -->
+  </section> <!-- section end -->
 
-  </section>
+  <!-- ===============================================
+ ==============section for services ================
+ =============================================== -->
+
   <section id="company-services" class="padding-large">
+
+    <!-- container for services -->
     <div class="container">
       <div class="row">
+        <!-- free delivery container -->
         <div class="col-lg-3 col-md-6 pb-3">
           <div class="icon-box d-flex">
             <div class="icon-box-icon pe-3 pb-3">
@@ -288,10 +333,11 @@
             </div>
             <div class="icon-box-content">
               <h3 class="card-title text-uppercase text-dark">Free delivery</h3>
-              <p>Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+              <p>Experience Seamless Style: Enjoy Free Delivery on All Between Orders!.</p>
             </div>
           </div>
         </div>
+        <!-- Quality guarantee container -->
         <div class="col-lg-3 col-md-6 pb-3">
           <div class="icon-box d-flex">
             <div class="icon-box-icon pe-3 pb-3">
@@ -301,10 +347,11 @@
             </div>
             <div class="icon-box-content">
               <h3 class="card-title text-uppercase text-dark">Quality guarantee</h3>
-              <p>Dolor sit amet orem ipsu mcons ectetur adipi elit.</p>
+              <p>Between's Quality Commitment: Guaranteed Excellence with Every Purchase!</p>
             </div>
           </div>
         </div>
+        <!-- Daily offers container -->
         <div class="col-lg-3 col-md-6 pb-3">
           <div class="icon-box d-flex">
             <div class="icon-box-icon pe-3 pb-3">
@@ -314,10 +361,11 @@
             </div>
             <div class="icon-box-content">
               <h3 class="card-title text-uppercase text-dark">Daily offers</h3>
-              <p>Amet consectetur adipi elit loreme ipsum dolor sit.</p>
+              <p>Between's Daily Delights: Discover Exclusive Offers Every Day!</p>
             </div>
           </div>
         </div>
+        <!-- 100% secure payment container -->
         <div class="col-lg-3 col-md-6 pb-3">
           <div class="icon-box d-flex">
             <div class="icon-box-icon pe-3 pb-3">
@@ -327,14 +375,20 @@
             </div>
             <div class="icon-box-content">
               <h3 class="card-title text-uppercase text-dark">100% secure payment</h3>
-              <p>Rem Lopsum dolor sit amet, consectetur adipi elit.</p>
+              <p>Between's Secure Checkout: Shop with Confidence, Every Time!</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </div> <!-- containerfor services end -->
+  </section> <!-- service section end -->
+
+  <!--==================================================================
+  === men's section or another temporary name mobile product section====
+  ===================================================================-->
+
   <section id="mobile-products" class="product-store position-relative padding-large no-padding-top">
+    <!-- men's container -->
     <div class="container">
       <div class="row">
         <div class="display-header d-flex justify-content-between pb-3">
@@ -346,6 +400,7 @@
         <div class="swiper product-swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
+              <!-- product1 -->
               <div class="product-card position-relative">
                 <div class="image-holder">
                   <img src="images/p1.jpg" alt="product-item" class="img-fluid">
@@ -359,12 +414,13 @@
                 </div>
                 <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
                   <h3 class="card-title text-uppercase">
-                    <a href="#">Iphone 10</a>
+                    <a href="#">men/round/olive</a>
                   </h3>
-                  <span class="item-price text-primary">$980</span>
+                  <span class="item-price text-primary">$100</span>
                 </div>
               </div>
             </div>
+            <!-- product2 -->
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
@@ -379,12 +435,13 @@
                 </div>
                 <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
                   <h3 class="card-title text-uppercase">
-                    <a href="#">Iphone 11</a>
+                    <a href="#">Between Signature Tee Collection white</a>
                   </h3>
-                  <span class="item-price text-primary">$1100</span>
+                  <span class="item-price text-primary">$100</span>
                 </div>
               </div>
             </div>
+            <!-- product3 -->
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
@@ -399,12 +456,13 @@
                 </div>
                 <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
                   <h3 class="card-title text-uppercase">
-                    <a href="#">Iphone 8</a>
+                    <a href="#">IBetween Signature Tee Collection orange</a>
                   </h3>
-                  <span class="item-price text-primary">$780</span>
+                  <span class="item-price text-primary">$100</span>
                 </div>
               </div>
             </div>
+            <!-- product4 -->
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
@@ -419,12 +477,13 @@
                 </div>
                 <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
                   <h3 class="card-title text-uppercase">
-                    <a href="#">Iphone 13</a>
+                    <a href="#">Between Signature Tee Collection pink</a>
                   </h3>
-                  <span class="item-price text-primary">$1500</span>
+                  <span class="item-price text-primary">$100</span>
                 </div>
               </div>
             </div>
+            <!-- product5 -->
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
@@ -439,19 +498,25 @@
                 </div>
                 <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
                   <h3 class="card-title text-uppercase">
-                    <a href="#">Iphone 12</a>
+                    <a href="#">Between Signature Tee Collection navy</a>
                   </h3>
-                  <span class="item-price text-primary">$1300</span>
+                  <span class="item-price text-primary">$100</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div> <!-- men's container end -->
     <div class="swiper-pagination position-absolute text-center"></div>
-  </section>
+  </section> <!-- men's section end -->
+
+  <!-- ============================================================================
+   =======women's section or another temporary name smart watch section============
+   ============================================================================ -->
+
   <section id="smart-watches" class="product-store padding-large position-relative">
+    <!-- women's container -->
     <div class="container">
       <div class="row">
         <div class="display-header d-flex justify-content-between pb-3">
@@ -462,6 +527,7 @@
         </div>
         <div class="swiper product-watch-swiper">
           <div class="swiper-wrapper">
+            <!-- product1 -->
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
@@ -476,12 +542,13 @@
                 </div>
                 <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
                   <h3 class="card-title text-uppercase">
-                    <a href="#">Pink watch</a>
+                    <a href="#">Between Signature Tee Collection green</a>
                   </h3>
-                  <span class="item-price text-primary">$870</span>
+                  <span class="item-price text-primary">$150</span>
                 </div>
               </div>
             </div>
+            <!-- product2 -->
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
@@ -496,12 +563,13 @@
                 </div>
                 <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
                   <h3 class="card-title text-uppercase">
-                    <a href="#">Heavy watch</a>
+                    <a href="#">Between Signature Tee Collection black</a>
                   </h3>
-                  <span class="item-price text-primary">$680</span>
+                  <span class="item-price text-primary">$150</span>
                 </div>
               </div>
             </div>
+            <!-- product3 -->
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
@@ -516,12 +584,13 @@
                 </div>
                 <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
                   <h3 class="card-title text-uppercase">
-                    <a href="#">spotted watch</a>
+                    <a href="#">Between Signature Tee Collection cream</a>
                   </h3>
-                  <span class="item-price text-primary">$750</span>
+                  <span class="item-price text-primary">$150</span>
                 </div>
               </div>
             </div>
+            <!-- product4 -->
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
@@ -536,12 +605,13 @@
                 </div>
                 <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
                   <h3 class="card-title text-uppercase">
-                    <a href="#">black watch</a>
+                    <a href="#">Between Signature Tee Collection white</a>
                   </h3>
-                  <span class="item-price text-primary">$650</span>
+                  <span class="item-price text-primary">$150</span>
                 </div>
               </div>
             </div>
+            <!-- product5 -->
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
@@ -556,18 +626,23 @@
                 </div>
                 <div class="card-detail d-flex justify-content-between pt-3">
                   <h3 class="card-title text-uppercase">
-                    <a href="#">black watch</a>
+                    <a href="#">Between Signature Tee Collection orange</a>
                   </h3>
-                  <span class="item-price text-primary">$750</span>
+                  <span class="item-price text-primary">$150</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div> <!-- container end -->
     <div class="swiper-pagination position-absolute text-center"></div>
-  </section>
+  </section><!-- women's section end -->
+
+  <!-- ==================================================
+   ==================section for sale ===================
+   ====================================================-->
+
   <section id="yearly-sale" class="bg-light-blue overflow-hidden mt-5 padding-xlarge"
     style="background-image: url('images/sale.jpg');background-position: right; background-repeat: no-repeat; background-size: contain;">
     <div class="row d-flex flex-wrap align-items-center">
