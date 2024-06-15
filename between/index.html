@@ -298,21 +298,14 @@
   ========section for home page view and content ======
   ==================================================-->
 
-  <section id="billboard" class="position-relative overflow-hidden bg-light-blue"
-    style="height: 40rem; background-image: url(images/home\ banner.png); background-position: center; background-repeat: no-repeat;background-size: cover;">
-
+  <section id="billboard" class="position-relative overflow-hidden bg-light-blue">
     <!-- home page container -->
+     <div class="containerforimg">
+      <img src="images/home banner.png" alt="home" class="reponsive" style="width: 100%; height: auto; top: 4rem;">
+      <a href="shop.html" class="homebtn">Shop Now</a>
     <div class="container">
-      <div class="row d-flex align-items-center">
-        <div class="col-md-6">
-          <div class="banner-content">
-            <!-- <h1 class="display-2 text-uppercase text-dark pb-5">Your Products Are Great.</h1> -->
-            <a href="shop.html" class="btn btn-medium btn-dark btn-rounded-none"
-              style="position: relative; top: 28em; left: 30em;">Shop Now</a>
-          </div>
-        </div>
-      </div>
     </div> <!-- home page container end -->
+  </div>
   </section> <!-- section end -->
 
   <!-- ===============================================
@@ -644,24 +637,28 @@
    ==================section for sale ===================
    ====================================================-->
 
-  <section id="yearly-sale" class="bg-light-blue overflow-hidden mt-5 padding-xlarge"
+  <section id="yearly-sale" class="bg-light-blue overflow-hidden mt-5 padding-large"
     style="background-image: url('images/sale.jpg');background-position: right; background-repeat: no-repeat; background-size: contain;">
     <div class="row d-flex flex-wrap align-items-center">
       <div class="col-md-6 col-sm-12">
         <div class="text-content offset-4">
-          <h3 style="font-size: 5rem; font-weight: 900;">10% off</h3>
+          <h3
+            style="font-size: 5rem; text-transform: uppercase; font-weight: 800; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            10% off</h3>
           <h2 class="display-2 pb-5 align-items-center "
-            style="text-align: left; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
-            Between's Style Extravaganza <br> Unmissable Sale</h2>
+            style="text-align: left;  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            Get Our Latest <br>Fashion Profuct</h2>
           <a href="shop.html" class="btn btn-medium btn-dark text-uppercase btn-rounded-none">Shop Sale</a>
         </div>
       </div>
-      <div class="col-md-6 col-sm-12">
-
-      </div>
     </div>
   </section>
+
+  <!-- ===========================================================
+   =================blog section of blog content and post=========
+   =========================================================== -->
   <section id="latest-blog" class="padding-large">
+    <!-- blog container -->
     <div class="container">
       <div class="row">
         <div class="display-header d-flex justify-content-between pb-3">
@@ -670,7 +667,9 @@
             <a href="blog.html" class="btn btn-medium btn-normal text-uppercase">Read Blog</a>
           </div>
         </div>
+        <!-- blog box -->
         <div class="post-grid d-flex flex-wrap justify-content-between">
+          <!-- blog post 1 content -->
           <div class="col-lg-4 col-sm-12">
             <div class="card border-none me-3">
               <div class="card-image">
@@ -687,6 +686,7 @@
               </h3>
             </div>
           </div>
+          <!-- blog post 2 content -->
           <div class="col-lg-4 col-sm-12">
             <div class="card border-none me-3">
               <div class="card-image">
@@ -703,6 +703,7 @@
               </h3>
             </div>
           </div>
+          <!-- blog post 3 content  -->
           <div class="col-lg-4 col-sm-12">
             <div class="card border-none me-3">
               <div class="card-image">

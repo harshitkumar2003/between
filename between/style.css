@@ -634,41 +634,40 @@ h3.cart-title {
 
 /* 2. Billboard
 /*----------------------------------------------*/
-/*------------Swiper Arrow -----------*/
-#billboard .swiper-arrow {
-    position: absolute;
-    top: 0;
+/*-----------------------*/
+#billboard {
+    position: relative;
+    top: 1.2rem;
     bottom: 0;
     z-index: 2;
     display: flex;
     align-items: center;
 }
-.swiper-icon.swiper-arrow svg {
-    fill: var(--light-gray-color);
-}
-.swiper-icon.swiper-arrow:hover svg,
-.swiper-icon.swiper-arrow:focus svg {
-    fill: var(--primary-color);
-}
-#billboard .swiper-arrow.swiper-arrow-prev {
-    left: 0;
-}
-#billboard .swiper-arrow.swiper-arrow-next {
-    right: 0;
+.homebtn {
+  position: absolute;
+  text-align: center;
+  width: 12rem;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #010101;
+  color: white;
+  font-size: 16px;
+  padding: 12px 44px;
+  border: none;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 767px) {
   #billboard .banner-content {
       margin-top: 210px;
   }
-  #billboard .image-holder {
-      margin-top: -390px;
-      opacity: 0.3;
-  }
   #billboard .swiper-arrow {
       top: 400px;
   }
 }
+@media only screen and (max-width: 991px){}
 
 /* 3. Icon Box - Company Services
 /*----------------------------------------------*/
