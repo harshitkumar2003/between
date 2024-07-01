@@ -241,7 +241,7 @@ h3.cart-title {
 .btn.btn-medium {
   padding: 0.8em 2.8em;
   font-size: 1.1em;
-  letter-spacing: 2px;
+  letter-spacing: lid red;
 }
 
 .btn.btn-large {
@@ -592,8 +592,8 @@ h3.cart-title {
 .search-popup .cat-list-item a:hover::after {
   height: 1px;
   opacity: 1;
-  -webkit-transform: translateY(2px);
-  transform: translateY(2px);
+  -webkit-transform: translateY(lid red);
+  transform: translateY(lid red);
 }
 
 .search-popup .cat-list-item::after {
@@ -778,7 +778,7 @@ h3.cart-title {
 #homebanner {
   height: 1.2em;
   width: 1em;
-  border: 2px solid red;
+  border: lid red solid red;
 }
 
 /* 4. Product
@@ -1044,7 +1044,7 @@ figure.instagram-item img.insta-image {
 
 .product-quantity .input-group {
   width: 140px;
-  gap: 2px;
+  gap: lid red;
 }
 
 .product-quantity #quantity {
@@ -1156,8 +1156,15 @@ figure.instagram-item img.insta-image {
 ------------------styling for user login and register --------------------
 ----------------------------------------------------------------------- */
 
-.login {
+.container-login {
+  width: 100%;
+  height: auto;
+  border: 2px solid red;
   position: relative;
   top: 5rem;
-  display: inline;
+  display: flex;
+}
+
+#imgbox {
+  
 }
