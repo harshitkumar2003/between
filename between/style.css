@@ -1155,16 +1155,22 @@ figure.instagram-item img.insta-image {
 /* -----------------------------------------------------------------------
 ------------------styling for user login and register --------------------
 ----------------------------------------------------------------------- */
+.login-page {
+  border: 3px solid red;
+  background-color: #010101;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 5.3rem;
+}
 
 .container-login {
   width: 100%;
   height: auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   position: relative;
-  top: 5rem;
+  top: 5.4rem;
   display: flex;
 }
 
-#imgbox {
-  
-}
+#imgbox {}
