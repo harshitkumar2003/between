@@ -1166,6 +1166,9 @@ figure.instagram-item img.insta-image {
 }
 
 .container-login {
+  background-image: url(images/login\ half.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: auto;
   left: 7rem;
   border: 2px solid #010101;
@@ -1173,12 +1176,6 @@ figure.instagram-item img.insta-image {
   border-style: dashed;
   width: 80%;
   height: auto;
-  display: flex;
-}
-
-.container-login img {
-  border-radius: 4rem;
-  width: 100%;
 }
 
 .form-container {
@@ -1199,13 +1196,6 @@ figure.instagram-item img.insta-image {
 
 .form-container button:active {
   scale: 0.95;
-}
-
-.form-container .logo-container {
-  margin-bottom: 12px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 20px;
 }
 
 .form-container .social-buttons {
@@ -1242,7 +1232,7 @@ figure.instagram-item img.insta-image {
   background-color: #1778f2;
 }
 
-.form-container .social-button.apple {
+.form-container .social-button.google {
   background-color: #212121;
 }
 
