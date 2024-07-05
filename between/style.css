@@ -1213,7 +1213,7 @@ figure.instagram-item img.insta-image {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 100%;
   font-family: inherit;
   color: #fff;
   border: none;
