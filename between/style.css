@@ -1202,13 +1202,12 @@ figure.instagram-item img.insta-image {
   scale: 0.96;
 }
 
-.form-container .social-buttons {
+.social-buttons {
+  border: 2px solid black;
   display: flex;
-  justify-content: center;
   margin-bottom: 20px;
   flex-direction: column;
   gap: 12px;
-  align-items: center;
 }
 
 .form-container .social-button {
