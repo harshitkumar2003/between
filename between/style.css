@@ -1203,7 +1203,6 @@ figure.instagram-item img.insta-image {
 }
 
 .social-buttons {
-  border: 2px solid black;
   display: flex;
   margin-bottom: 20px;
   flex-direction: column;
