@@ -1170,7 +1170,7 @@ figure.instagram-item img.insta-image {
   background-repeat: no-repeat;
   background-size: cover;
   margin: auto;
-  border: 2px solid #010101;
+
   border-radius: 4rem;
   width: 80%;
   height: auto;
@@ -1222,11 +1222,11 @@ figure.instagram-item img.insta-image {
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
 }
 
-.form-container .social-button svg {
+/* .form-container .social-button svg {
   width: 22px;
   height: 22px;
   fill: white;
-}
+} */
 
 .form-container .social-button.facebook {
   background-color: #1778f2;
@@ -1250,13 +1250,13 @@ figure.instagram-item img.insta-image {
 
 .form-container .form-group label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
-.form-container .form-group input[type="text"],
+.form-container .form-group input[type="email"],
 .form-container .form-group input[type="password"] {
   width: 100%;
-  padding: 12px 16px;
+  padding: 10px 16px;
   border-radius: 6px;
   font-family: inherit;
   border: 1px solid #ccc;
@@ -1266,7 +1266,7 @@ figure.instagram-item img.insta-image {
   opacity: 0.5;
 }
 
-.form-container .form-group input[type="text"]:focus,
+.form-container .form-group input[type="email"]:focus,
 .form-container .form-group input[type="password"]:focus {
   outline: none;
   border-color: #1778f2;
@@ -1301,7 +1301,7 @@ figure.instagram-item img.insta-image {
 
 .form-container .forgot-password-link {
   align-self: flex-end;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 .form-container .signup-link {
