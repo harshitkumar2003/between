@@ -1219,18 +1219,19 @@ figure.instagram-item img.insta-image {
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
 }
 
-/* .form-container .social-button svg {
+.form-container .social-button svg {
   width: 22px;
   height: 22px;
   fill: white;
-} */
+  margin-right: .6em;
+}
 
 .form-container .social-button.facebook {
   background-color: #1778f2;
 }
 
 .form-container .social-button.google {
-  background-color: #000000;
+  background-color: #1778f2;
 }
 
 .form-container .form {
