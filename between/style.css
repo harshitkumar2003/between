@@ -1322,7 +1322,10 @@ figure.instagram-item img.insta-image {
   opacity: 0.1;
 }
  
-/* checkout styling  */
+/* -------------------------------------------------
+-----------------checkout styling-------------------
+--------------------------------------------------*/
+
 .checkout {
 position: relative;
 top: 5rem;
@@ -1383,7 +1386,7 @@ label {
   font-size: 24px;
 }
 
-.btn {
+.checkbtn {
   background-color: #2b2a2a;
   color: white;
   padding: 12px;
