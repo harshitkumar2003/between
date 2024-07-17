@@ -1321,36 +1321,41 @@ figure.instagram-item img.insta-image {
   background-color: #1f1f1f;
   opacity: 0.1;
 }
- 
+
 /* -------------------------------------------------
 -----------------checkout styling-------------------
 --------------------------------------------------*/
 
 .checkout {
-position: relative;
-top: 5.5rem;
+  position: relative;
+  top: 5.5rem;
 }
 
 .row {
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox;
+  /* IE10 */
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap;
+  /* IE10 */
   flex-wrap: wrap;
   margin: 0 -16px;
 }
 
 .col-25 {
-  -ms-flex: 25%; /* IE10 */
+  -ms-flex: 25%;
+  /* IE10 */
   flex: 25%;
 }
 
 .col-50 {
-  -ms-flex: 50%; /* IE10 */
+  -ms-flex: 50%;
+  /* IE10 */
   flex: 50%;
 }
 
 .col-75 {
-  -ms-flex: 75%; /* IE10 */
+  -ms-flex: 75%;
+  /* IE10 */
   flex: 75%;
 }
 
@@ -1386,9 +1391,14 @@ label {
   font-size: 24px;
 }
 
-.checkbtn {
-  background-color: #2450ec;
+.input[type=checkbox] {
+  background-color: #1778f2;
+}
+
+.input[type=submit]:active {
+  background-color: #117ceded;
   color: white;
+  scale: 0.95;
   padding: 12px;
   margin: 10px 0;
   border: none;
@@ -1398,8 +1408,8 @@ label {
   font-size: 17px;
 }
 
-.btn:hover {
-  opacity: 0.95;
+.checkoutbtn:hover {
+
   background-color: #0d54e0;
   color: white;
 }
@@ -1409,11 +1419,12 @@ span.price {
   color: grey;
 }
 
-/* Responsive layout */ 
+/* Responsive layout */
 @media (max-width: 800px) {
   .row {
     flex-direction: column-reverse;
   }
+
   .col-25 {
     margin-bottom: 20px;
   }
