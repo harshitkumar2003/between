@@ -1328,7 +1328,7 @@ figure.instagram-item img.insta-image {
 
 .checkout {
 position: relative;
-top: 5rem;
+top: 5.5rem;
 }
 
 .row {
@@ -1387,7 +1387,7 @@ label {
 }
 
 .checkbtn {
-  background-color: #2b2a2a;
+  background-color: #2450ec;
   color: white;
   padding: 12px;
   margin: 10px 0;
@@ -1399,7 +1399,8 @@ label {
 }
 
 .btn:hover {
-  background-color: #151515;
+  opacity: 0.95;
+  background-color: #0d54e0;
   color: white;
 }
 
