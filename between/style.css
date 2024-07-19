@@ -1329,5 +1329,7 @@ figure.instagram-item img.insta-image {
   border: 2px solid red;
   position: relative;
   top: 5.4rem;
+  height: auto;
 
 }
+
