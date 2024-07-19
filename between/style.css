@@ -1329,7 +1329,6 @@ figure.instagram-item img.insta-image {
   position: relative;
   top: 5.5rem;
   background-color: #212121;
-  height: 100%;
 }
 
 .cc {
@@ -1337,6 +1336,23 @@ figure.instagram-item img.insta-image {
   width: 80%;
   position: relative;
   left: 10%;
+}
+
+.inpbox{
+  max-width: 80%;
+  height: 100%;
+  background: #000;
+}
+
+.headbox {
+  border: 2px solid red;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.headbox h4 {
+  font-size: 3em;
+  font-weight: 900;
 }
 
 .size span {
