@@ -1321,3 +1321,13 @@ figure.instagram-item img.insta-image {
   background-color: #1f1f1f;
   opacity: 0.1;
 }
+
+/* ==============================
+======cart section styling=======
+=============================  */
+.cs {
+  border: 2px solid red;
+  position: relative;
+  top: 5.4rem;
+
+}
