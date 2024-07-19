@@ -1336,8 +1336,7 @@ figure.instagram-item img.insta-image {
   background-image: linear-gradient(48deg, #132127, #c8b2b2, #0883e8d6);
   width: 80%;
   position: relative;
-  left: 6rem;
-
+  left: 10%;
 }
 
 .size span {
