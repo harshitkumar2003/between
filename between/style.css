@@ -1350,26 +1350,16 @@ figure.instagram-item img.insta-image {
   margin-top: 2em;
 }
 
-.headbox h4 {
-  font-size: 3em;
-  font-weight: 900;
-}
-
-.size span {
-  font-size: 11px;
-}
-
-.color span {
-  font-size: 11px;
-}
-
-.product-deta {
-  margin-right: 60px;
+h4 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+ font-weight: bold;
+ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .gift-card:focus {
   box-shadow: none;
-  width: 50%;
 }
 
 .pay-button {
@@ -1377,7 +1367,7 @@ figure.instagram-item img.insta-image {
 }
 
 .pay-button:hover {
-  color: #fff;
+  color: #e33636;
 }
 
 .pay-button:focus {
