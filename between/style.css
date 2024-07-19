@@ -1326,10 +1326,54 @@ figure.instagram-item img.insta-image {
 ======cart section styling=======
 =============================  */
 .cs {
-  border: 2px solid red;
   position: relative;
-  top: 5.4rem;
-  height: auto;
+  top: 5.5rem;
+  background-color: #212121;
+  height: 100%;
+}
+
+.cc {
+  background-image: linear-gradient(48deg, #132127, #c8b2b2, #0883e8d6);
+  width: 80%;
+  position: relative;
+  left: 6rem;
 
 }
 
+.size span {
+  font-size: 11px;
+}
+
+.color span {
+  font-size: 11px;
+}
+
+.product-deta {
+  margin-right: 60px;
+}
+
+.gift-card:focus {
+  box-shadow: none;
+  width: 50%;
+}
+
+.pay-button {
+  color: #fff;
+}
+
+.pay-button:hover {
+  color: #fff;
+}
+
+.pay-button:focus {
+  color: #fff;
+  box-shadow: none;
+}
+
+.text-grey {
+  color: #a39f9f;
+}
+
+.qty i {
+  font-size: 11px;
+}
