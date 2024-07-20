@@ -1329,8 +1329,18 @@ figure.instagram-item img.insta-image {
 #shopping-container {
   position: relative;
   top: 5.5rem;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
 }
 
 #shopping-container table {
   margin: 2rem 0;
+}
+
+#shopping-container table thead td {
+  background: #000;
+  color: #fff;
+  font-weight: 800;
+  padding: .5rem 0 .5rem .4rem;
 }
