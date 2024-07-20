@@ -297,10 +297,32 @@
         </header> <!-- header end -->
 
         <!-- ====================================================
-   ========================page view=======================
+   ========================cart view=======================
    ==================================================== -->
         <!-- cart page  -->
         <section class="cs">
+            <div class="cart">
+                <div class="cart-item">
+                  <img src="product.jpg" alt="Product Image" class="product-image"/>
+                  <div class="product-details">
+                    <h2 class="product-title">Product Title</h2>
+                    <p class="product-price">$Price</p>
+                  </div>
+                  <div class="product-quantity">
+                    <input type="number" value="1"/>
+                  </div>
+                  <div class="product-removal">
+                    <button class="remove-product">Remove</button>
+                  </div>
+                  <div class="product-line-price">$Price</div>
+                </div>
+                <div class="totals-item">
+                  <label>Subtotal</label>
+                  <div class="totals-value" id="cart-subtotal">$0.00</div>
+                </div>
+                <button class="checkout">Checkout</button>
+              </div>
+              
       
         </section>
 
