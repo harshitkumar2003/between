@@ -1330,3 +1330,7 @@ figure.instagram-item img.insta-image {
   position: relative;
   top: 5.5rem;
 }
+
+#shopping-container table {
+  margin: 2rem 0;
+}
