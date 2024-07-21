@@ -1374,3 +1374,8 @@ figure.instagram-item img.insta-image {
   width: 4rem;
   height: 5rem;
 }
+
+#coupon-container{
+  border: 1px solid black;
+  
+}
