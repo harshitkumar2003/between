@@ -1381,7 +1381,8 @@ figure.instagram-item img.insta-image {
   margin-top: 1rem;
 }
 
-#cart-bottom .coupon div {
+#cart-bottom .coupon>div,
+#cart-bottom .total>div {
   border: 1px solid black;
 }
 
@@ -1397,8 +1398,8 @@ figure.instagram-item img.insta-image {
 }
 
 #cart-bottom .coupon input {
-  margin-bottom: .4rem;
-  padding-left: .1rem;
+  margin-bottom: .5rem;
+  margin-left: .5rem;
 }
 
 #cart-bottom .total h5 {
@@ -1410,4 +1411,11 @@ figure.instagram-item img.insta-image {
 
 #cart-bottom p {
   color: black;
+}
+
+#cart-bottom .total div>button {
+  position: relative;
+  left: 22rem;
+  margin: 0 .2rem .4rem 0;
+
 }
