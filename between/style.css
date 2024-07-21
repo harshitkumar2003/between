@@ -1338,9 +1338,36 @@ figure.instagram-item img.insta-image {
   margin: 2rem 0;
 }
 
-#shopping-container table thead td {
+#shopping-container table td{
+  border: 1px solid black;
+  text-align: center;
+}
+
+#shopping-container table thead  {
   background: #000;
   color: #fff;
   font-weight: 800;
-  padding: .5rem 0 .5rem .4rem;
+  padding: .5rem 0 .5rem .1rem;
+}
+
+#shopping-container table td:nth-child(1){
+  width: .3rem;
+}
+#shopping-container table td:nth-child(2),
+#shopping-container table td:nth-child(3) {
+  width: 2rem;
+}
+#shopping-container table td:nth-child(4),
+#shopping-container table td:nth-child(5) {
+width: 1rem;
+}
+
+#shopping-container table td span:hover {
+color: red;
+cursor: pointer;
+}
+
+#shopping-container table tbody img {
+  width: 3rem;
+  height: 3rem;
 }
