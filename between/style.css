@@ -1417,5 +1417,16 @@ figure.instagram-item img.insta-image {
   position: relative;
   left: 22rem;
   margin: 0 .2rem .4rem 0;
+}
 
+button {
+  background: #000;
+  color: white;
+  padding: .2rem .3rem;
+}
+
+button:hover {
+  background: #ff0000;
+  color: white;
+  border: white;
 }
