@@ -1335,7 +1335,7 @@ figure.instagram-item img.insta-image {
 }
 
 #shopping-container table {
-  margin: 2rem 0;
+  margin-top: 2rem;
 }
 
 #shopping-container table td {
@@ -1343,11 +1343,11 @@ figure.instagram-item img.insta-image {
   text-align: center;
 }
 
-#shopping-container table thead {
+#shopping-container table thead tr td {
   background: #000;
   color: #fff;
   font-weight: 800;
-  padding: .5rem 0 .5rem .1rem;
+  padding: .2rem 0;
 }
 
 #shopping-container table td:nth-child(1) {
@@ -1378,5 +1378,15 @@ figure.instagram-item img.insta-image {
 #cart-bottom{
 position: relative;
 top: 5.5rem;
-  
+margin-top: 1rem;
+}
+
+#cart-bottom .coupon div {
+  border: 1px solid black;
+}
+#cart-bottom .coupon h5 {
+  background: #000;
+  color: #fff;
+  font-weight: 800;
+  padding: .2rem 1rem;
 }
