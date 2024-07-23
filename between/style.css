@@ -1424,7 +1424,11 @@ button {
   color: white;
 }
 
-button:hover {
+button a {
+  color: white;
+}
+
+button a:hover {
   background: #ff0000;
   color: white;
   border: white;
