@@ -2,13 +2,17 @@
 
 #footer {
     overflow: hidden;
-    background-color: #1C2833;
+    background-color: #1C2833; 
 }
 
-#footer-top-area .row {
+#footer .row {
+   justify-content: space-between;
+}
+
+#footer-top-area {
     display: flex;
     flex: wrap;
-    justify-content: space-between;
+  
 }
 
 .footer-menu a {
@@ -32,7 +36,6 @@
 .social-links ul {
     display: flex;
     list-style: none;
-    /* justify-content: center; */
 }
 
 .footer-links {
@@ -43,6 +46,10 @@
 ul li a {
     color: white;
     text-decoration: none;
+}
+
+.menu-list {
+    padding: 0;
 }
 
 .menu-list li {
@@ -62,3 +69,9 @@ ul li a {
 
 
 /* ------------------------footer bottom----------------------- */
+
+#footer-bottom .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
