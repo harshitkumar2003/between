@@ -2,7 +2,7 @@
 
 #footer {
     overflow: hidden;
-    background-color: black;
+    background-color: #1C2833;
 }
 
 #footer-top-area .row {
@@ -48,5 +48,17 @@ ul li a {
 .menu-list li {
     list-style: none;
     color: white;
-    padding-bottom: -1px;
+    padding-bottom: .3em;
 }
+
+.contact-item p,
+.contact-item p a {
+    color: rgb(255, 255, 255);
+}
+
+.contact-item p :hover {
+    color: rgb(4, 151, 255);
+}
+
+
+/* ------------------------footer bottom----------------------- */
