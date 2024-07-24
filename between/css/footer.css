@@ -1,0 +1,52 @@
+/*====================== footer ================*/
+
+#footer {
+    overflow: hidden;
+    background-color: black;
+}
+
+#footer-top-area .row {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+
+.footer-menu a {
+    font-size: 3em;
+    color: white;
+    line-height: 1em;
+    letter-spacing: -5px;
+    font-family: Playfair Display, serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.footer-menu p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 14px;
+    margin-top: .5em;
+}
+
+.social-links ul {
+    display: flex;
+    list-style: none;
+    /* justify-content: center; */
+}
+
+.footer-links {
+    text-transform: uppercase;
+}
+
+.footer-links h5,
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-list li {
+    list-style: none;
+    color: white;
+    padding-bottom: -1px;
+}
