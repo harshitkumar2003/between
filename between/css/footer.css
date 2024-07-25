@@ -81,3 +81,15 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.Shipping, .Shipping p {
+    display: flex;
+    color: white;
+    font-size: 14px;
+}
+
+.payment-method, .payment-method p {
+    display: flex;
+    color: white;
+    font-size: 14px;
+}
