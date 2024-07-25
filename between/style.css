@@ -20,10 +20,10 @@
   --gray-color-500: #AEAEAE;
   --gray-color-800: #3A3A3A;
   --light-gray-color: #D7DDDF;
-  --primary-color: #72AEC8;
-  --bs-primary-rgb: 114, 174, 200;
-  --light-color: #f8f9fa;
-  --dark-color: #212529;
+  --primary-color: rgb(255, 0, 0);
+  --bs-primary-rgb: rgb(0, 0, 0);
+  --light-color: #ffffff;
+  --dark-color: #000000;
   --light-blue-color: #EDF1F3;
   --navbar-color-color: #131814;
   --swiper-theme-color: #4A4A4A;
@@ -133,8 +133,8 @@ a:hover {
 }
 
 .padding-large {
-  padding-top: 7em;
-  padding-bottom: 7em;
+  padding-top: 5.5em;
+  padding-bottom: 2em;
 }
 
 .padding-xlarge {
@@ -144,7 +144,7 @@ a:hover {
 
 /* no padding */
 .no-padding-top {
-  padding-top: 0 !important;
+  padding-top: 3em !important;
 }
 
 .no-padding-right {
@@ -242,7 +242,7 @@ h3.cart-title {
 .btn.btn-medium {
   padding: 0.8em 2.8em;
   font-size: 1.1em;
-  letter-spacing: lid red;
+  letter-spacing: 1px;
 }
 
 .btn.btn-large {
@@ -465,7 +465,7 @@ h3.cart-title {
 -------------------------------------------------------------------------*/
 
 .search-popup {
-  background-color: #fff;
+  background-color: #F3F3F3;
   position: fixed;
   left: 0;
   top: 0;
@@ -764,6 +764,12 @@ h3.cart-title {
   cursor: pointer;
 }
 
+.homebtn:hover {
+  background-color: white;
+  transition: all 0.3s ease-out;
+  color: #010101;
+}
+
 @media only screen and (max-width: 767px) {
   #billboard .banner-content {
     margin-top: 210px;
@@ -782,6 +788,10 @@ h3.cart-title {
 ================================== Icon Box - Company Services============================
 ========================================================================================*/
 
+#company-services {
+  background: #F2F2F2;
+}
+
 .icon-box .icon-box-icon svg {
   width: 26px;
   height: 26px;
@@ -792,12 +802,6 @@ h3.cart-title {
   #company-services .icon-box {
     flex-wrap: wrap;
   }
-}
-
-#homebanner {
-  height: 1.2em;
-  width: 1em;
-  border: lid red solid red;
 }
 
 
