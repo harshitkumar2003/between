@@ -1,7 +1,4 @@
 /*====================== footer ================*/
-ul,li,h5,h6,p{
-    color: white;
-}
 
 #footer {
     overflow: hidden;
@@ -43,10 +40,6 @@ ul,li,h5,h6,p{
 
 .footer-links {
     text-transform: uppercase;
-}
-
-.footer-links h5,
-ul li a {
     color: white;
     text-decoration: none;
 }
