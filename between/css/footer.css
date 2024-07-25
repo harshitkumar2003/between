@@ -64,6 +64,10 @@
     padding-bottom: .3em;
 }
 
+.page-links {
+    color: white;
+}
+
 .contact-item p,
 .contact-item p a {
     color: rgb(255, 255, 255);
