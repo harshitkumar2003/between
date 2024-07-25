@@ -1,4 +1,7 @@
 /*====================== footer ================*/
+ul,li,h5,h6,p{
+    color: white;
+}
 
 #footer {
     overflow: hidden;
@@ -46,6 +49,16 @@
 ul li a {
     color: white;
     text-decoration: none;
+}
+
+.copyright p,
+.copyright p a {
+    color: white;
+    font-size: 14px;
+}
+
+.copyright p :hover {
+    color: rgb(4, 151, 255);
 }
 
 .menu-list {
