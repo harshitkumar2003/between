@@ -220,7 +220,7 @@ a:hover {
 --------------------------------------------------------------*/
 h3.card-title,
 h3.cart-title {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 /* - Section width
@@ -755,15 +755,19 @@ h3.cart-title {
   text-align: center;
   width: 12rem;
   top: 72%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #010101;
-  color: white;
-  font-size: 16px;
-  padding: 12px 44px;
-  border: none;
-  cursor: pointer;
+  left: 40%;
+  display: inline-block;
+  font: 800 19.39px/24px "Montserrat", sans-serif;
+  background: #000000;
+  border-radius: 2px;
+  color: #fff;
+  padding: 12px 28px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-decoration:none;
 }
 
 .homebtn:hover {
@@ -832,7 +836,7 @@ h3.cart-title {
   width: 16px;
   height: 16px;
   fill: var(--light-color);
-  margin-left: 2px;
+  margin-left: 7px;
 }
 
 .product-card .card-detail span {
@@ -902,8 +906,8 @@ h3.cart-title {
 .ban_text a {
   display: inline-block;
   font: 800 19.39px/24px "Montserrat", sans-serif;
-  background: #282828;
-  border-radius: 26px;
+  background: #000000;
+  border-radius: 2px;
   color: #fff;
   padding: 12px 28px;
   -moz-transition: all 0.3s ease-in-out;
@@ -915,7 +919,7 @@ h3.cart-title {
 }
 .ban_text a:hover {
   background: #ffffff;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
