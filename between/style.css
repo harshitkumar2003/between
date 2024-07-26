@@ -865,42 +865,7 @@ h3.cart-title {
   padding: 1%;
 } */
 
-#yearly-sale {
-  background-image: url("images/insta-item3.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: blur(6px);
-  -webkit-filter: blur(6px);
-  height: 100%;
-}
 
-.bg-text {
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0, 0.4); 
-  color: white;
-  font-weight: bold;
-  border: 1px solid #f1f1f1;
-  z-index: 2;
-  width: 50%;
-  position: relative;
-  left: 25%;
-  padding: 20px;
-  text-align: center;
-}
-
-/* .sale-btn {
-  text-align: center;
-  width: 12rem;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #010101;
-  color: white;
-  font-size: 16px;
-  padding: 12px 44px;
-  border: none;
-  cursor: pointer;
-} */
 
 
 /* 5. =============================================================================
