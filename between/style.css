@@ -669,10 +669,12 @@ h3.cart-title {
 
 .site-header {
   width: 100%;
-  opacity: 0.5;
   z-index: 10;
-  background: transparent;
   transition: background 0.3s ease-out;
+}
+
+.navbar {
+  background: rgba(88, 88, 88, 0.5); /* Black background with 0.5 opacity */
 }
 
 .navbar-toggler svg.navbar-icon {
