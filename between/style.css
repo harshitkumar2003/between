@@ -70,9 +70,8 @@ body {
   font-family: var(--body-font);
   font-size: 14px;
   font-weight: 500;
-  line-height: 0.6;
+  line-height: 1.6;
   margin: 0;
-  background-color: #eeeee4;
 }
 
 p {
@@ -668,13 +667,10 @@ h3.cart-title {
 /*------------------------------------------------------------------------------*/
 
 .site-header {
+  position: fixed;
   width: 100%;
   z-index: 10;
   transition: background 0.3s ease-out;
-}
-
-.navbar {
-  background: rgba(88, 88, 88, 0.5); /* Black background with 0.5 opacity */
 }
 
 .navbar-toggler svg.navbar-icon {
@@ -744,6 +740,9 @@ h3.cart-title {
 ----------------------------------------------------------------------------*/
 
 #billboard {
+  position: relative;
+  top: 1.2rem;
+  bottom: 0;
   z-index: 2;
   display: flex;
   align-items: center;
