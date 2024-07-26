@@ -914,7 +914,8 @@ h3.cart-title {
   text-decoration:none;
 }
 .ban_text a:hover {
-  background: #50af47;
+  background: #ffffff;
+  color: black;
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
