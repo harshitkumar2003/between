@@ -72,7 +72,7 @@ body {
   font-weight: 500;
   line-height: 1.6;
   margin: 0;
-  background-color: #ede9e8;
+  background-color: #DAE3E5;
 }
 
 p {
@@ -241,7 +241,7 @@ h3.cart-title {
 }
 
 .btn.btn-medium {
-  padding: 0.8em 2.8em;
+  padding: 0.8em 1.8em;
   font-size: 1.1em;
   letter-spacing: 1px;
 }
