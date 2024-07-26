@@ -134,7 +134,7 @@ a:hover {
 }
 
 .padding-large {
-  padding-top: 5.5em;
+  padding-top: 5em;
   padding-bottom: 2em;
 }
 
@@ -856,6 +856,25 @@ h3.cart-title {
 }
 
 
+
+/* 5. =============================================================================
+=====================================Testimonial===================================
+==================================================================================*/
+#yearly-sale {
+  background-image: url('images/sale.jpg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.text-conten {
+  font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.display-2 {
+  font-size: 2rem;
+}
 
 /* 5. =============================================================================
 =====================================Testimonial===================================
