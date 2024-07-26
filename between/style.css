@@ -744,9 +744,6 @@ h3.cart-title {
 ----------------------------------------------------------------------------*/
 
 #billboard {
-  position: relative;
-  top: 1.2rem;
-  bottom: 0;
   z-index: 2;
   display: flex;
   align-items: center;
