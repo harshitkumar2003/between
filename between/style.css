@@ -12,13 +12,13 @@
 /** 1. VARIABLES
 --------------------------------------------------------------*/
 :root {
-  --accent-color: #717171;
+  --accent-color: #000000;
   --white-color: #fff;
   --black-color: #8d4242;
-  --gray-color: #F3F3F3;
+  --gray-color: #a71c1c;
   --gray-color-300: #D8D8D8;
-  --gray-color-500: #AEAEAE;
-  --gray-color-800: #3A3A3A;
+  --gray-color-500: #a1a1a1;
+  --gray-color-800: #1b1818;
   --light-gray-color: #D7DDDF;
   --primary-color: rgb(255, 0, 0);
   --bs-primary-rgb: rgb(0, 0, 0);
@@ -72,6 +72,7 @@ body {
   font-weight: 500;
   line-height: 1.6;
   margin: 0;
+  background-color: #ede9e8;
 }
 
 p {
@@ -670,6 +671,7 @@ h3.cart-title {
   position: fixed;
   width: 100%;
   z-index: 10;
+  background-color: #FFFFFF;
   transition: background 0.3s ease-out;
 }
 
@@ -789,7 +791,7 @@ h3.cart-title {
 ========================================================================================*/
 
 #company-services {
-  background: #f9f7f7;
+  background: #FFFAFF;
 }
 
 .icon-box .icon-box-icon svg {
@@ -822,7 +824,7 @@ h3.cart-title {
 }
 
 .product-store .product-card:hover .cart-concern {
-  bottom: 90px;
+  bottom: 7rem;
   opacity: 1;
 }
 
@@ -830,7 +832,7 @@ h3.cart-title {
   width: 16px;
   height: 16px;
   fill: var(--light-color);
-  margin-left: 9px;
+  margin-left: 2px;
 }
 
 .product-card .card-detail span {
@@ -845,7 +847,7 @@ h3.cart-title {
 
 /*------------Swiper Pagination -----------*/
 .product-store .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
-  bottom: 35px;
+  bottom: -1.3em;
 }
 
 .swiper-pagination span.swiper-pagination-bullet {
