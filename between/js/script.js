@@ -131,8 +131,8 @@
     var swiper = new Swiper(".testimonial-swiper", {
       loop: true,
       navigation: {
-        nextEl: ".swiper-arrow-prev",
-        prevEl: ".swiper-arrow-next",
+        nextEl: ".swiper-arrow-next",
+        prevEl: ".swiper-arrow-prev",
       },
     });
 
