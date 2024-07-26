@@ -68,7 +68,7 @@
 
     var swiper = new Swiper(".product-swiper", {
       slidesPerView: 5,
-      spaceBetween: 10,
+      spaceBetween: 20,
       pagination: {
         el: "#mobile-products .swiper-pagination",
         clickable: true,
@@ -92,14 +92,14 @@
         },
         1221: {
           slidesPerView: 5,
-          spaceBetween: 20,
+          spaceBetween: 10,
         }
       },
     });
 
     var swiper = new Swiper(".product-watch-swiper", {
       slidesPerView: 5,
-      spaceBetween: 10,
+      spaceBetween: 20,
       pagination: {
         el: "#smart-watches .swiper-pagination",
         clickable: true,
@@ -123,7 +123,7 @@
         },
         1221: {
           slidesPerView: 5,
-          spaceBetween: 20,
+          spaceBetween: 10,
         }
       },
     });
