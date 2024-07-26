@@ -840,7 +840,7 @@ h3.cart-title {
 }
 
 .product-card .card-detail span {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 @media only screen and (max-width: 575px) {
