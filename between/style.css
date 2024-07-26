@@ -70,8 +70,9 @@ body {
   font-family: var(--body-font);
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.6;
+  line-height: 0.6;
   margin: 0;
+  background-color: #eeeee4;
 }
 
 p {
@@ -667,9 +668,10 @@ h3.cart-title {
 /*------------------------------------------------------------------------------*/
 
 .site-header {
-  position: fixed;
   width: 100%;
+  opacity: 0.5;
   z-index: 10;
+  background: transparent;
   transition: background 0.3s ease-out;
 }
 
@@ -789,7 +791,7 @@ h3.cart-title {
 ========================================================================================*/
 
 #company-services {
-  background: #F2F2F2;
+  background: #f9f7f7;
 }
 
 .icon-box .icon-box-icon svg {
