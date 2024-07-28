@@ -1363,16 +1363,17 @@ figure.instagram-item img.insta-image {
 .container-login {
   margin: auto;
   border-radius: 2.5rem;
-  width: 80%;
+  width: 40%;
   height: 80%;
+  border: 2px solid red;
 }
 
 .form-container {
   position: relative;
-  right: -28rem;
-  width: 50%;
+  right: -4rem;
+  width: 100%;
   gap: 6px;
-  margin: 1rem;
+  margin: 1rem 0 0 .3rem;
   padding: 25px 20px;
   font-size: .8rem;
   color: #212121;
