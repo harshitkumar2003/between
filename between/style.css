@@ -1352,7 +1352,7 @@ figure.instagram-item img.insta-image {
 ----------------------------------------------------------------------- */
 
 .login-page {
-  padding: 4rem;
+  padding: 4rem 0 0 1rem;
   background-image: url(images/lo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1362,18 +1362,18 @@ figure.instagram-item img.insta-image {
 
 .container-login {
   margin: auto;
-  width: 40%;
+  width: 38%;
   height: 80%;
-  border: 2px solid red;
 }
 
 .form-container {
   position: relative;
+  top: -2px;
   right: -6rem;
   width: 100%;
   gap: 6px;
-  margin: .7rem 0 0 .3rem;
-  padding: 25px 20px;
+  margin: .7rem 0 0 3rem;
+  padding: 25px 20px 10px;
   font-size: .8rem;
   color: #212121;
   display: flex;
