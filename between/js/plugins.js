@@ -18,7 +18,7 @@ var $jscomp$this = this;
   function A(a) { var b = {}, d; for (d in a) b[d] = a[d]; return b } function G(a, b) { var d = A(a), c; for (c in a) d[c] = b.hasOwnProperty(c) ? b[c] : a[c]; return d } function B(a, b) { var d = A(a), c; for (c in b) d[c] = g.und(a[c]) ? b[c] : a[c]; return d } function S(a) { a = a.replace(/^#?([a-f\d])([a-f\d])([a-f\d])$/i, function (a, b, d, h) { return b + b + d + d + h + h }); var b = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(a); a = parseInt(b[1], 16); var d = parseInt(b[2], 16), b = parseInt(b[3], 16); return "rgb(" + a + "," + d + "," + b + ")" } function T(a) {
     function b(a, b, c) {
       0 >
-      c && (c += 1); 1 < c && --c; return c < 1 / 6 ? a + 6 * (b - a) * c : .5 > c ? b : c < 2 / 3 ? a + (b - a) * (2 / 3 - c) * 6 : a
+        c && (c += 1); 1 < c && --c; return c < 1 / 6 ? a + 6 * (b - a) * c : .5 > c ? b : c < 2 / 3 ? a + (b - a) * (2 / 3 - c) * 6 : a
     } var d = /hsl\((\d+),\s*([\d.]+)%,\s*([\d.]+)%\)/g.exec(a); a = parseInt(d[1]) / 360; var c = parseInt(d[2]) / 100, d = parseInt(d[3]) / 100; if (0 == c) c = d = a = d; else { var e = .5 > d ? d * (1 + c) : d + c - d * c, l = 2 * d - e, c = b(l, e, a + 1 / 3), d = b(l, e, a); a = b(l, e, a - 1 / 3) } return "rgb(" + 255 * c + "," + 255 * d + "," + 255 * a + ")"
   } function x(a) { if (a = /([\+\-]?[0-9#\.]+)(%|px|pt|em|rem|in|cm|mm|ex|pc|vw|vh|deg|rad|turn)?/.exec(a)) return a[2] } function U(a) {
     if (-1 < a.indexOf("translate")) return "px";
@@ -62,8 +62,8 @@ var $jscomp$this = this;
       } if (c) for (var k in c) E || (E = C(document.body, "transform") ? "transform" : "-webkit-transform"), f.animatables[k].target.style[E] = c[k].join(" "); f.currentTime = a; f.progress = a / f.duration * 100
     } function e(a) { if (f[a]) f[a](f) } function g() { f.remaining && !0 !== f.remaining && f.remaining-- } function h(a) {
       var h = f.duration,
-      l = f.offset, n = f.delay, P = f.currentTime, q = f.reversed, r = d(a), r = Math.min(Math.max(r, 0), h); if (f.children) { var p = f.children; if (r >= f.currentTime) for (var u = 0; u < p.length; u++)p[u].seek(r); else for (u = p.length; u--;)p[u].seek(r) } r > l && r < h ? (c(r), !f.began && r >= n && (f.began = !0, e("begin")), e("run")) : (r <= l && 0 !== P && (c(0), q && g()), r >= h && P !== h && (c(h), q || g())); a >= h && (f.remaining ? (t = m, "alternate" === f.direction && (f.reversed = !f.reversed)) : (f.pause(), "Promise" in window && (Q(), R = b()), f.completed || (f.completed = !0, e("complete"))),
-        k = 0); e("update")
+        l = f.offset, n = f.delay, P = f.currentTime, q = f.reversed, r = d(a), r = Math.min(Math.max(r, 0), h); if (f.children) { var p = f.children; if (r >= f.currentTime) for (var u = 0; u < p.length; u++)p[u].seek(r); else for (u = p.length; u--;)p[u].seek(r) } r > l && r < h ? (c(r), !f.began && r >= n && (f.began = !0, e("begin")), e("run")) : (r <= l && 0 !== P && (c(0), q && g()), r >= h && P !== h && (c(h), q || g())); a >= h && (f.remaining ? (t = m, "alternate" === f.direction && (f.reversed = !f.reversed)) : (f.pause(), "Promise" in window && (Q(), R = b()), f.completed || (f.completed = !0, e("complete"))),
+          k = 0); e("update")
     } a = void 0 === a ? {} : a; var m, t, k = 0, Q = null, R = b(), f = fa(a); f.reset = function () { var a = f.direction, b = f.loop; f.currentTime = 0; f.progress = 0; f.paused = !0; f.began = !1; f.completed = !1; f.reversed = "reverse" === a; f.remaining = "alternate" === a && 1 === b ? 2 : b; for (a = f.children.length; a--;)b = f.children[a], b.seek(b.offset), b.reset() }; f.tick = function (a) { m = a; t || (t = m); h((k + m - t) * n.speed) }; f.seek = function (a) { h(d(a)) }; f.pause = function () { var a = q.indexOf(f); -1 < a && q.splice(a, 1); f.paused = !0 }; f.play = function () {
       f.paused && (f.paused =
         !1, t = 0, k = d(f.currentTime), q.push(f), z || ja())
