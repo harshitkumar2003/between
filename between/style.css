@@ -1609,19 +1609,15 @@ figure.instagram-item img.insta-image {
   color: black;
 }
 
-
 .proceed {
-  position: absolute;
   text-align: center;
-  width: 12rem;
-  top: 72%;
-  left: 40%;
+  width: fit-content;
   display: inline-block;
-  font: 800 19.39px/24px "Montserrat", sans-serif;
+  font: 500 14px "Montserrat", sans-serif;
   background: #000000;
   border-radius: 2px;
   color: #fff;
-  padding: 12px 28px;
+  padding: 7px 10px;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1634,4 +1630,5 @@ figure.instagram-item img.insta-image {
   background-color: white;
   transition: all 0.3s ease-out;
   color: #010101;
+  border: 1px solid #000;
 }
