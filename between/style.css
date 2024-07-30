@@ -1609,23 +1609,29 @@ figure.instagram-item img.insta-image {
   color: black;
 }
 
-#cart-bottom .total div>button {
-  position: relative;
-  left: 22rem;
-  margin: 0 .2rem .4rem 0;
+
+.proceed {
+  position: absolute;
+  text-align: center;
+  width: 12rem;
+  top: 72%;
+  left: 40%;
+  display: inline-block;
+  font: 800 19.39px/24px "Montserrat", sans-serif;
+  background: #000000;
+  border-radius: 2px;
+  color: #fff;
+  padding: 12px 28px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-decoration:none;
 }
 
-button {
-  background: #000;
-  color: white;
-}
-
-button a {
-  color: white;
-}
-
-button a:hover {
-  background: #ff0000;
-  color: white;
-  border: white;
+.proceed:hover {
+  background-color: white;
+  transition: all 0.3s ease-out;
+  color: #010101;
 }
