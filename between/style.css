@@ -767,7 +767,7 @@ h3.cart-title {
   -webkit-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .homebtn:hover {
@@ -868,13 +868,16 @@ h3.cart-title {
 #ban_sec {
   width: 100%;
 }
+
 .ban_img {
   width: 100%;
   position: relative;
 }
+
 .ban_img img {
   width: 100%;
 }
+
 .ban_text {
   position: absolute;
   top: 50%;
@@ -885,20 +888,24 @@ h3.cart-title {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
 .ban_text strong {
   font: 800 62.22px/70px "Montserrat", sans-serif;
   color: #fff;
   text-transform: uppercase;
 }
+
 .ban_text strong span {
   font: 400 44.44px/52px "Montserrat", sans-serif;
   letter-spacing: 3px;
 }
+
 .ban_text p {
   font: 400 25px/30px "Montserrat", sans-serif;
   color: #fff;
   margin: 7px 0 25px;
 }
+
 .ban_text a {
   display: inline-block;
   font: 800 19.39px/24px "Montserrat", sans-serif;
@@ -911,8 +918,9 @@ h3.cart-title {
   -webkit-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  text-decoration:none;
+  text-decoration: none;
 }
+
 .ban_text a:hover {
   background: #ffffff;
   color: rgb(0, 0, 0);
@@ -928,13 +936,16 @@ h3.cart-title {
   .ban_text p {
     font-size: 17px;
   }
+
   .ban_text strong {
     font-size: 50px;
     line-height: 60px;
   }
+
   .ban_text strong span {
     font-size: 37px;
   }
+
   .ban_text a {
     font-size: 16px;
     line-height: 19px;
@@ -946,26 +957,31 @@ h3.cart-title {
     font-size: 35px;
     line-height: 40px;
   }
+
   .ban_text strong span {
     font-size: 28px;
     line-height: 35px;
     letter-spacing: 2px;
   }
+
   .ban_text p {
     font-size: 14px;
     line-height: 20px;
   }
+
   .ban_text a {
     font-size: 13.39px;
     line-height: 15px;
   }
 }
+
 @media only screen and (max-width: 767px) {
   .ban_img img {
     min-height: 290px;
     object-fit: cover;
   }
 }
+
 @media only screen and (max-width: 575px) {
   .ban_text strong {
     background: rgba(0, 0, 0, 0.8);
@@ -974,12 +990,14 @@ h3.cart-title {
     display: block;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .ban_text strong span {
     font-size: 22px;
     line-height: 31px;
     letter-spacing: 1px;
   }
+
   .ban_text {
     left: 2%;
   }
@@ -1008,7 +1026,8 @@ h3.cart-title {
 #testimonials .swiper-arrow svg {
   width: 45px;
   height: 45px;
-  color: rgb(197, 193, 193);}
+  color: rgb(197, 193, 193);
+}
 
 .review-content .swiper-arrow {
   top: 0;
@@ -1619,7 +1638,7 @@ figure.instagram-item img.insta-image {
   -webkit-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .proceed:hover {
@@ -1636,8 +1655,107 @@ figure.instagram-item img.insta-image {
 
 #checkout {
   position: relative;
-  top: 4rem;
+  top: 4.3rem;
   border: 2px solid red;
   width: 100%;
-  height: auto;
+  margin-bottom: 4.3rem;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.details {
+  max-width: 45rem;
+  height: fit-content;
+}
+
+p {
+  color: var(--color-gray);
+}
+
+hr {
+  height: 1px;
+  width: 100%;
+  background-color: grey;
+  border: 0;
+  margin: 1.3rem 0;
+}
+
+.form {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  padding: .3rem;
+  border-radius: .25rem;
+}
+
+.field__label {
+  color: grey;
+  font-size: 0.7rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 0.2rem
+}
+
+.field__input {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.field:focus-within {
+  border-color: #000;
+}
+
+.fields {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.fields--2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.fields--3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.order {
+  background-color: #000;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: block;
+  color: #fff;
+  width: 100%;
+  padding: .9rem;
+  border-radius: 0.25rem;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.order:hover {
+  background-color: #ffffff;
+  transition: all 0.3s ease-out;
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
 }

@@ -293,37 +293,56 @@
   <!-- ====================================================
    ========================checkout view=======================
    ==================================================== -->
+  
+
   <section id="checkout" class="container">
-    <div class="row">
-      <h1>Delivery Information</h1>
-      <div class="details">
-        <form action="action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-          <label for="mname">Middle Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-          <label for="lname">Last Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-          <label for="mobile">Mobile Number</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-          <label for="email">Email</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-          <label for="address">Address Line 1</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-          <label for="address">Address Line 2</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-          <label for="mobile">Mobile Number</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-          <label for="mobile">Mobile Number</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-          <label for="mobile">Mobile Number</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-          <button>Submit</button>
-        </form>
-
+    <div class="details">
+       <h2>Checkout Form</h2>
+      <p>Please enter your shipping details.</p>
+      <hr />
+      <div class="form">
+        
+      <div class="fields fields--2">
+        <label class="field">
+          <span class="field__label" for="firstname">First name</span>
+          <input class="field__input" type="text" id="firstname" value="John" />
+        </label>
+        <label class="field">
+          <span class="field__label" for="lastname">Last name</span>
+          <input class="field__input" type="text" id="lastname" value="Doe" />
+        </label>
       </div>
+      <label class="field">
+        <span class="field__label" for="address">Address</span>
+        <input class="field__input" type="text" id="address" />
+      </label>
+      <label class="field">
+        <span class="field__label" for="country">Country</span>
+        <select class="field__input" id="country">
+          <option value=""></option>
+          <option value="unitedstates">United States</option>
+        </select>
+      </label>
+      <div class="fields fields--3">
+        <label class="field">
+          <span class="field__label" for="zipcode">Zip code</span>
+          <input class="field__input" type="text" id="zipcode" />
+        </label>
+        <label class="field">
+          <span class="field__label" for="city">City</span>
+          <input class="field__input" type="text" id="city" />
+        </label>
+        <label class="field">
+          <span class="field__label" for="state">State</span>
+          <select class="field__input" id="state">
+            <option value=""></option>
+          </select>
+        </label>
+      </div>
+      </div>
+      <hr>
+      <button class="order">Continue</button>
     </div>
-
   </section>
 
 
