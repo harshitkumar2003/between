@@ -305,28 +305,42 @@
         <section id="contact" class="container" >
             <div class="cbg">
                 <form action="action_page.php">
-                    <p><b>Get In Touch</b></p>
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-                    <label for="country">Country</label>
-                    <select id="country" name="country">
-                        <option value="default">select</option>
-                        <option value="australia">India</option>
-                        <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
-                        <option value="usa">USA</option>
-                    </select>
-
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Your feedback.."
-                        style="height:200px"></textarea>
-
-                    <input type="submit" value="Submit">
-                </form>
+                    <div class="fields fields--2">
+                      <label class="field">
+                        <span class="field__label" for="firstname">First name</span>
+                        <input class="field__input" type="text" id="firstname" value="" required />
+                      </label>
+                      <label class="field">
+                        <span class="field__label" for="lastname">Last name</span>
+                        <input class="field__input" type="text" id="lastname" value="" required />
+                      </label>
+                    </div>
+                    <label class="field">
+                      <span class="field__label" for="address">Address</span>
+                      <input class="field__input" type="text" id="address" required />
+                    </label>
+                    <label class="field">
+                      <span class="field__label" for="country">Country</span>
+                      <input class="field__input" type="text" id="country" required />
+                    </label>
+                    <div class="fields fields--3">
+                      <label class="field">
+                        <span class="field__label" for="zipcode">Zip code</span>
+                        <input class="field__input" type="text" id="zipcode" required />
+                      </label>
+                      <label class="field">
+                        <span class="field__label" for="city">City</span>
+                        <input class="field__input" type="text" id="city" required />
+                      </label>
+                      <label class="field">
+                        <span class="field__label" for="state">State</span>
+                        <input class="field__input" type="text" id="state" required />
+                        </select>
+                      </label>
+                    </div>
+                    <hr>
+                    <input type="submit" class="order" value="Continue">
+                  </form>
         </section>
 
     <!--=====================================================================================
@@ -492,7 +506,7 @@
     </div> <!-- footer bottom section  -->
   </footer> <!-- footer section end  -->
 
-  
+
         <script src="js/jquery-1.11.0.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
