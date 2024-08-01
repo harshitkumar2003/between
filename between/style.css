@@ -1779,12 +1779,13 @@ form {
  
 #contact {
   position: relative;
-  top: 5.5rem;
+  top: 4.5rem;
+  padding: 1rem;
 }
 
 .cbg {
-  width: 100%;
-  border-radius: 5px;
-  color: #ffffff;
-  padding: 20px;
+  max-width: 70rem;
+  height: auto;
+  background-color: #ededed;
+  padding: 1rem;
 }
