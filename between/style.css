@@ -1628,3 +1628,16 @@ figure.instagram-item img.insta-image {
   color: #010101;
   border: 1px solid #000;
 }
+
+
+/* ------------------------------------------------------------------
+----------------------checkout------------------------------------
+------------------------------------------------------------------ */
+
+#checkout {
+  position: relative;
+  top: 4rem;
+  border: 2px solid red;
+  width: 100%;
+  height: auto;
+}
