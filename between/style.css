@@ -1777,14 +1777,14 @@ form {
 ==================================== contact ======================================
 =================================================================================*/
  
+#contact {
+  position: relative;
+  top: 5.5rem;
+}
+
 .cbg {
   width: 100%;
   border-radius: 5px;
   color: #ffffff;
   padding: 20px;
-}
-
-#contact {
-  position: relative;
-  top: 5.5rem;
 }
