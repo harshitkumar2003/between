@@ -293,55 +293,71 @@
   <!-- ====================================================
    ========================checkout view=======================
    ==================================================== -->
-  
+
 
   <section id="checkout" class="container">
     <div class="details">
-       <h2>Checkout Form</h2>
+      <h2>Checkout Form</h2>
       <p>Please enter your shipping details.</p>
       <hr />
-      <div class="form">
-        
-      <div class="fields fields--2">
+      <form action="action_page.php">
+        <div class="fields fields--2">
+          <label class="field">
+            <span class="field__label" for="firstname">First name</span>
+            <input class="field__input" type="text" id="firstname" value="" required />
+          </label>
+          <label class="field">
+            <span class="field__label" for="lastname">Last name</span>
+            <input class="field__input" type="text" id="lastname" value="" required />
+          </label>
+        </div>
         <label class="field">
-          <span class="field__label" for="firstname">First name</span>
-          <input class="field__input" type="text" id="firstname" value="John" />
+          <span class="field__label" for="address">Address</span>
+          <input class="field__input" type="text" id="address" required />
         </label>
         <label class="field">
-          <span class="field__label" for="lastname">Last name</span>
-          <input class="field__input" type="text" id="lastname" value="Doe" />
+          <span class="field__label" for="country">Country</span>
+          <input class="field__input" type="text" id="country" required />
         </label>
+        <div class="fields fields--3">
+          <label class="field">
+            <span class="field__label" for="zipcode">Zip code</span>
+            <input class="field__input" type="text" id="zipcode" required />
+          </label>
+          <label class="field">
+            <span class="field__label" for="city">City</span>
+            <input class="field__input" type="text" id="city" required />
+          </label>
+          <label class="field">
+            <span class="field__label" for="state">State</span>
+            <input class="field__input" type="text" id="state" required />
+            </select>
+          </label>
+        </div>
+        <hr>
+        <button class="order">Continue</button>
+      </form>
+    </div>
+
+    <!-- checkout bottom -->
+
+    <div class="checkout-bottom col-lg-6 col-md-6 col-12">
+      <div>
+        <h2>Cart Total</h2>
+        <div class="d-flex  justify-content-between px-3">
+          <h6>Subtotal</h6>
+          <p>$650</p>
+        </div>
+        <div class="d-flex justify-content-between px-3">
+          <h6>Shipping</h6>
+          <p>$50</p>
+        </div>
+        <hr>
+        <div class="d-flex justify-content-between px-3">
+          <h6>Total</h6>
+          <p>$700</p>
+        </div>
       </div>
-      <label class="field">
-        <span class="field__label" for="address">Address</span>
-        <input class="field__input" type="text" id="address" />
-      </label>
-      <label class="field">
-        <span class="field__label" for="country">Country</span>
-        <select class="field__input" id="country">
-          <option value=""></option>
-          <option value="unitedstates">United States</option>
-        </select>
-      </label>
-      <div class="fields fields--3">
-        <label class="field">
-          <span class="field__label" for="zipcode">Zip code</span>
-          <input class="field__input" type="text" id="zipcode" />
-        </label>
-        <label class="field">
-          <span class="field__label" for="city">City</span>
-          <input class="field__input" type="text" id="city" />
-        </label>
-        <label class="field">
-          <span class="field__label" for="state">State</span>
-          <select class="field__input" id="state">
-            <option value=""></option>
-          </select>
-        </label>
-      </div>
-      </div>
-      <hr>
-      <button class="order">Continue</button>
     </div>
   </section>
 
