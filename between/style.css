@@ -1837,7 +1837,7 @@ form {
   position: relative;
   top: 4.5rem;
   line-height: 180px;
- text-align:  center;
+  text-align: center;
   background-color: rgb(0, 0, 0);
   height: 6rem;
 
@@ -1857,6 +1857,7 @@ form {
   max-width: 1024px;
   margin: 2em auto;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
 }
 
 .faq:after {
@@ -1872,6 +1873,10 @@ form {
     margin: 4em auto;
     box-shadow: none;
   }
+}
+
+.categories {
+  list-style: none;
 }
 
 .categories a {
@@ -2125,6 +2130,7 @@ form {
 .faq-group {
   /* hide group not selected */
   display: none;
+  list-style: none;
 }
 
 .faq-group.selected {
@@ -2271,3 +2277,7 @@ form {
     display: block;
   }
 }
+
+/* ul {
+  list-style: none;
+} */
