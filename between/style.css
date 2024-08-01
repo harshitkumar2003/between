@@ -1779,8 +1779,11 @@ form {
  
 #contact {
   position: relative;
-  top: 4.5rem;
-  padding: 1rem;
+  top: 4.3rem;
+  width: 100%;
+  margin-bottom: 4.4rem;
+  display: flex;
+  padding: .5rem .1rem;
 }
 
 .cbg {
