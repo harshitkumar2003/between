@@ -1833,76 +1833,15 @@ form {
 =======================================FAQ=============================================
  ====================================================================================*/
 
- /* -------------------------------- 
-
-Primary style
-
--------------------------------- */
-@font-face {
-  font-family: 'kievit-regular';
-
-  src:
-
-       url('css/kievit-regular.ttf')  format('truetype'); 
-
-}
-*, *::after, *::before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-*::after, *::before {
-  content: '';
-}
-
-body {
-  font-size: 100%;
-  font-family: "kievit-regular", sans-serif;
-  color: #4e5359;
-  background-color: #f3f3f5;
-}
-body::after {
-  /* overlay layer visible on small devices when the right panel slides in */
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(78, 83, 89, 0.8);
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-  -moz-transition: opacity .3s 0s, visibility 0s .3s;
-  transition: opacity .3s 0s, visibility 0s .3s;
-}
-body.cd-overlay::after {
-  visibility: visible;
-  opacity: 1;
-  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
-  -moz-transition: opacity .3s 0s, visibility 0s 0s;
-  transition: opacity .3s 0s, visibility 0s 0s;
-}
-@media only screen and (min-width: 768px) {
-  body::after {
-    display: none;
-  }
-}
-
-a {
-  color: #a9c056;
-  text-decoration: none;
-}
-
-header {
+.headline {
   position: relative;
   top: 4.5rem;
-  height: 180px;
+  height: 4rem;
   line-height: 180px;
   text-align: center;
   background-color: tomato;
 }
-header h1 {
+.headline h1 {
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1910,11 +1849,11 @@ header h1 {
   font-size: 1.25rem;
 }
 @media only screen and (min-width: 1024px) {
-  header {
-    height: 240px;
+  .headline {
+    height: 3rem;
     line-height: 240px;
   }
-  header h1 {
+  .headline h1 {
     font-size: 36px;
     font-size: 2.25rem;
     font-weight: 300;
