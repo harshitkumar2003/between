@@ -1836,28 +1836,20 @@ form {
 .headline {
   position: relative;
   top: 4.5rem;
-  height: 4rem;
   line-height: 180px;
-  text-align: center;
-  background-color: tomato;
+ text-align:  center;
+  background-color: rgb(0, 0, 0);
+  height: 6rem;
+
 }
+
 .headline h1 {
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 20px;
-  font-size: 1.25rem;
-}
-@media only screen and (min-width: 1024px) {
-  .headline {
-    height: 3rem;
-    line-height: 240px;
-  }
-  .headline h1 {
-    font-size: 36px;
-    font-size: 2.25rem;
-    font-weight: 300;
-  }
+  font-size: 2.25rem;
+  font-weight: 300;
+  padding-top: 1.5rem;
 }
 
 .faq {
@@ -1866,14 +1858,17 @@ form {
   margin: 2em auto;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
+
 .faq:after {
   content: "";
   display: table;
   clear: both;
 }
+
 @media only screen and (min-width: 768px) {
   .faq {
     position: relative;
+    top: 2em;
     margin: 4em auto;
     box-shadow: none;
   }
@@ -1894,7 +1889,9 @@ form {
   border-bottom: 1px solid #555b61;
   text-overflow: ellipsis;
 }
-.categories a::before, .categories a::after {
+
+.categories a::before,
+.categories a::after {
   /* plus icon on the right */
   position: absolute;
   top: 50%;
@@ -1904,6 +1901,7 @@ form {
   width: 10px;
   background-color: #7f868e;
 }
+
 .categories a::after {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -1911,15 +1909,18 @@ form {
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
+
 .categories li:last-child a {
   border-bottom: none;
 }
+
 @media only screen and (min-width: 768px) {
   .categories {
     width: 20%;
     float: left;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
   }
+
   .categories a {
     font-size: 13px;
     font-size: 0.8125rem;
@@ -1930,17 +1931,22 @@ form {
     -moz-transition: background 0.2s, padding 0.2s;
     transition: background 0.2s, padding 0.2s;
   }
-  .categories a::before, .categories a::after {
+
+  .categories a::before,
+  .categories a::after {
     display: none;
   }
+
   .no-touch .categories a:hover {
     background: #555b61;
   }
+
   .no-js .categories {
     width: 100%;
     margin-bottom: 2em;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .categories {
     position: absolute;
@@ -1949,6 +1955,7 @@ form {
     width: 200px;
     z-index: 2;
   }
+
   .categories a::before {
     /* decorative rectangle on the left visible for the selected item */
     display: block;
@@ -1963,16 +1970,20 @@ form {
     -moz-transition: opacity 0.2s;
     transition: opacity 0.2s;
   }
+
   .categories .selected {
     background: #42464b !important;
   }
+
   .categories .selected::before {
     opacity: 1;
   }
+
   .categories.is-fixed {
     /* top and left value assigned in jQuery */
     position: fixed;
   }
+
   .no-js .categories {
     position: relative;
   }
@@ -2000,6 +2011,7 @@ form {
   -moz-transition: -moz-transform .3s;
   transition: transform .3s;
 }
+
 .faq-items.slide-in {
   -webkit-transform: translateZ(0) translateX(0%);
   -moz-transform: translateZ(0) translateX(0%);
@@ -2007,6 +2019,7 @@ form {
   -o-transform: translateZ(0) translateX(0%);
   transform: translateZ(0) translateX(0%);
 }
+
 .no-js .faq-items {
   position: static;
   height: auto;
@@ -2017,6 +2030,7 @@ form {
   -o-transform: translateX(0);
   transform: translateX(0);
 }
+
 @media only screen and (min-width: 768px) {
   .faq-items {
     position: static;
@@ -2033,12 +2047,14 @@ form {
     background: transparent;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .faq-items {
     float: none;
     width: 100%;
     padding-left: 220px;
   }
+
   .no-js .faq-items {
     padding-left: 0;
   }
@@ -2067,7 +2083,9 @@ form {
   -moz-transition: right 0.4s;
   transition: right 0.4s;
 }
-.cd-close-panel::before, .cd-close-panel::after {
+
+.cd-close-panel::before,
+.cd-close-panel::after {
   /* close icon in CSS */
   position: absolute;
   top: 16px;
@@ -2077,6 +2095,7 @@ form {
   width: 18px;
   background: #6c7d8e;
 }
+
 .cd-close-panel::before {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -2084,6 +2103,7 @@ form {
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
 .cd-close-panel::after {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -2091,9 +2111,11 @@ form {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+
 .cd-close-panel.move-left {
   right: 2%;
 }
+
 @media only screen and (min-width: 768px) {
   .cd-close-panel {
     display: none;
@@ -2104,17 +2126,21 @@ form {
   /* hide group not selected */
   display: none;
 }
+
 .faq-group.selected {
   display: block;
 }
+
 .faq-group .faq-title {
   background: transparent;
   box-shadow: none;
   margin: 1em 0;
 }
+
 .no-touch .faq-group .faq-title:hover {
   box-shadow: none;
 }
+
 .faq-group .faq-title h2 {
   text-transform: uppercase;
   font-size: 12px;
@@ -2122,15 +2148,18 @@ form {
   font-weight: 700;
   color: #bbbbc7;
 }
+
 .no-js .faq-group {
   display: block;
 }
+
 @media only screen and (min-width: 768px) {
   .faq-group {
     /* all groups visible */
     display: block;
   }
-  .faq-group > li {
+
+  .faq-group>li {
     background: #ffffff;
     margin-bottom: 6px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
@@ -2138,12 +2167,15 @@ form {
     -moz-transition: box-shadow 0.2s;
     transition: box-shadow 0.2s;
   }
-  .no-touch .faq-group > li:hover {
+
+  .no-touch .faq-group>li:hover {
     box-shadow: 0 1px 10px rgba(108, 125, 142, 0.3);
   }
+
   .faq-group .faq-title {
     margin: 2em 0 1em;
   }
+
   .faq-group:first-child .faq-title {
     margin-top: 0;
   }
@@ -2155,6 +2187,7 @@ form {
   margin: 1.6em 0 .4em;
   line-height: 1.2;
 }
+
 @media only screen and (min-width: 768px) {
   .trigger {
     font-size: 24px;
@@ -2163,7 +2196,9 @@ form {
     margin: 0;
     padding: 24px 72px 24px 24px;
   }
-  .trigger::before, .trigger::after {
+
+  .trigger::before,
+  .trigger::after {
     /* arrow icon on the right */
     position: absolute;
     right: 24px;
@@ -2180,6 +2215,7 @@ form {
     -moz-transition-duration: 0.2s;
     transition-duration: 0.2s;
   }
+
   .trigger::before {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -2188,6 +2224,7 @@ form {
     transform: rotate(45deg);
     right: 32px;
   }
+
   .trigger::after {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -2195,6 +2232,7 @@ form {
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
   }
+
   .content-visible .trigger::before {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -2202,6 +2240,7 @@ form {
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
   }
+
   .content-visible .trigger::after {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -2217,14 +2256,17 @@ form {
   line-height: 1.4;
   color: #6c7d8e;
 }
+
 @media only screen and (min-width: 768px) {
   .faq-content {
     display: none;
     padding: 0 24px 30px;
   }
+
   .faq-content p {
     line-height: 1.6;
   }
+
   .no-js .faq-content {
     display: block;
   }
