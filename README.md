@@ -9,13 +9,13 @@ We would like to thank all the contributors and developers who supported this pr
 
 ##🔑 Key Features
 
-*Responsive Design: The website is fully responsive, ensuring a seamless experience on all devices.*
-*User Authentication: Users can easily register and log in to their accounts.*
-*Product Search: Users can search for products effortlessly with our integrated search functionality.*
-*Shopping Cart: A dedicated cart page allows users to review and manage their selected items before checkout.*
-*Easy Navigation: A fixed navbar provides quick access to essential pages.*
-*Informative Sections: The website includes sections for services, testimonials, and an about page to enhance user engagement.*
-*Instagram Integration: Links to our Instagram account showcase our latest designs and customer photos.*
+- *Responsive Design: The website is fully responsive, ensuring a seamless experience on all devices.*
+- *User Authentication: Users can easily register and log in to their accounts.*
+- *Product Search: Users can search for products effortlessly with our integrated search functionality.*
+- *Shopping Cart: A dedicated cart page allows users to review and manage their selected items before checkout.*
+- *Easy Navigation: A fixed navbar provides quick access to essential pages.*
+- *Informative Sections: The website includes sections for services, testimonials, and an about page to enhance user engagement.*
+- *Instagram Integration: Links to our Instagram account showcase our latest designs and customer photos.*
 
 ##📝 Description
 
@@ -24,11 +24,11 @@ The website is divided into several sections:
 
 ##Services: Highlighting what we offer.
 
-*Men's Products & Women's Products: Showcasing our t-shirt collections for all genders.*
-*Testimonials: Feedback from satisfied customers.*
-*Subscribe: An option for users to stay updated with our latest offerings.*
-*Instagram Links: Connect with us on social media to see our latest designs.*
-*The footer contains additional links and information about our brand.*
+- *Men's Products & Women's Products: Showcasing our t-shirt collections for all genders.*
+- *Testimonials: Feedback from satisfied customers.*
+- *Subscribe: An option for users to stay updated with our latest offerings.*
+- *Instagram Links: Connect with us on social media to see our latest designs.*
+- *The footer contains additional links and information about our brand.*
 
 ##🛠️ Tools Used
 
@@ -44,10 +44,10 @@ The website is divided into several sections:
 
 ##💼 Benefits
 
-*User-Friendly Interface: Simplifies the shopping experience for customers.*
-*Engagement: The website encourages interaction through testimonials and social media links.*
-*Accessibility: Mobile-responsive design allows users to shop anytime, anywhere.*
-*Visual Appeal: A clean and modern design that highlights our products effectively.*
+- *User-Friendly Interface: Simplifies the shopping experience for customers.*
+- *Engagement: The website encourages interaction through testimonials and social media links.*
+- *Accessibility: Mobile-responsive design allows users to shop anytime, anywhere.*
+- *Visual Appeal: A clean and modern design that highlights our products effectively.*
 
 ##🚀 Getting Started
 
