@@ -323,15 +323,19 @@ h3.cart-title {
 }
 
 /* - Buttons Color Scheme
+for got to shop buttons border
 ------------------------------------------------------------- */
 .btn.btn-normal {
   text-decoration: underline;
+  border-radius: 50px;
   border: none;
 }
 
 .btn.btn-normal:hover {
   text-decoration: none;
-}
+} 
+ 
+/* another button */
 
 .btn.btn-accent {
   color: var(--light-color);
@@ -343,6 +347,9 @@ h3.cart-title {
   color: var(--light-color) !important;
   background-color: var(--primary-color);
 }
+
+/* CART BUTTON */
+
 
 .btn.btn-black {
   background-color: var(--dark-color);
